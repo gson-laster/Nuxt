@@ -1,0 +1,65 @@
+.new_user_vbczform, .new_user_vbczimg, .new_user_vbcztitle{
+  text-align: center;
+  overflow: hidden;
+}
+.new_user_vbcz{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 640px;
+  overflow: hidden;
+  padding-bottom: 60px;
+}
+.new_user_vbcz{
+  background-color: #fff;
+}
+.new_user_vbcztitle{
+  margin: 50px auto 0;
+  padding: 0;
+  color: #333;
+}
+.new_user_vbcztitle h3{
+  font-size: 30px;
+  line-height: 180%;
+}
+.new_user_vbcztitle span.dq{
+  color: #999;
+  font-size: 14px;
+  line-height: 160%;
+}
+.new_user_renewsm i{
+  font-style: normal;
+  color: red;
+}
+.new_user_renewsm{
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+  line-height: 150%;
+}
+.new_user_vbczan{
+  margin: 20px auto 0;
+  width: 280px;
+  text-align: center;
+  overflow: hidden;
+  padding-bottom: 50px;
+}
+.new_user_vbczan input, .new_user_vbczform .t{
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  float: left;
+}
+.new_user_vbczan input{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
+  border: none;
+  background: #FA0;
+  color: #FFF;
+  cursor: pointer;
+}

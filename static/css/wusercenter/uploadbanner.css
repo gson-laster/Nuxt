@@ -1,0 +1,58 @@
+.uploadbanner .ub span{
+  color: #FDAB01;
+  padding-left: 0.4em;
+}
+.uploadbanner .ub p{
+  padding: 20px 12px;
+  font-size: 16px;
+  line-height: 26px;
+}
+.uploadbanner .ub{
+  background: #fff;
+  border-bottom: 1px #CCC solid;
+  padding-bottom: 20px;
+}
+.uploadbanner .addone{
+  color: #FDAB01;
+  border: 1px solid #FDAB01;
+  height: 32px;
+  width: 120px;
+  border-radius: 4px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 32px;
+}
+.uploadbanner .btns{
+  text-align: center;
+  padding: 20px;
+}
+.uploadbanner .btns button{
+  background: #FDAB01;
+  color: #fff;
+  border: none;
+  outline: none;
+  margin: 12px;
+  padding: 0.8em 1.4em;
+  border-radius: 4px;
+  min-width: 123px;
+}
+.uploadbanner .imgList{
+  padding: 10px;
+}
+.uploadbanner .imgList img{
+  width: 100%;
+}
+.uploadbanner .imgList > div{
+  position: relative;
+}
+.uploadbanner .shanchu{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #FDAB01;
+  color: #FDAB01;
+  padding: 0.4em 0.6em;
+  background: #fff;
+  border-radius: 4px;
+}

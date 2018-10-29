@@ -1,0 +1,49 @@
+@import 'total.css';
+.new_usertitle {
+    margin: 10px auto 0;
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 20px;
+    color: #F60;
+}
+.new_usertitle.zxkf {
+    color: #333;
+}
+.new_userzxkf ul, .new_userzxkf ul li {
+    width: 100%;
+    float: left;
+}
+.new_userzxkf {
+    margin: 0 auto;
+    width: 300px;
+    overflow: hidden;
+    background: url(../../img/wusercenter/zxkf_bg.png) left top no-repeat;
+    background-size: 300px;
+}
+.new_userzxkf ul li div {
+    float: left;
+    margin-left: 75px;
+    height: 55px;
+    line-height: 55px;
+    color: #07bb07;
+    font-size: 18px;
+}
+.new_userzxkf ul li {
+    margin-top: 30px;
+}
+.new_userzxkf_ps {
+    margin: 0 auto;
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 18px;
+    color: #07bb07;
+    padding: 30px 0;
+}
+.new_userzxkf_ps img{
+    width: 160px;
+}
+.new_userzxkf a{
+  display: inline-block;
+}

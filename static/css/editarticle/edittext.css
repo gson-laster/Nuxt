@@ -1,0 +1,38 @@
+
+.icontext {
+  font-family: iconfont!important;
+  font-size: 20px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: .2px;
+  -moz-osx-font-smoothing: grayscale;
+  color: #000;
+}
+
+.txt_input_div,.url_input_div,.video_input_div{text-align:center}
+.url_input_div input,.video_input_div input{text-align:center;padding:12px;margin:5px;width:75%;border:0;border-radius:3px;margin-bottom:5px}
+.input_txt_div{line-height: 24px;padding:12px;margin:0 auto;width:75%;border:0;border-radius:3px 3px 0 0;min-height:160px;max-height:240px;overflow:auto;background-color:#FFF;font-size:14px;text-align:left;word-wrap:break-all}
+.mask_div{padding-top:54px;z-index:10000;height:100%;min-height:480px;position:fixed;left:0;top:0;width:100%;background-color:#333}
+.tupian{width:100%;min-height:60px;_height:120px;margin-left:auto;margin-right:auto;padding:0;outline:0;color:#666;text-align:center;font-size:13px;word-wrap:break-word;overflow-x:hidden;overflow-y:auto;_overflow-y:visible;position:relative}
+.tupian img{width:100%}
+.toolbar{width:75%;margin:0 auto;padding:0 12px;background-color:#F3F3F3;height:45px;line-height:45px;border-radius:0 0 3px 3px;position:relative}
+.toolbar dd{float:left;width: 25%;}
+.toolbar dd span.active{color: rgb(4, 190, 2);}
+.toolbar .color_group{position:absolute;background-color:#FFF;height:35px;border-top:1px solid #efefef;top:-36px;left:0;width:100%;}
+.toolbar .color_group dt{float:left;width:13%;font-size:20px;line-height:35px}
+.cancle:active,.ok:active{background-color:#926B5D}
+.addnew{text-align:center}
+.changebackground dl{width:100%;text-align:justify}
+.changebackground dd{display:inline-block;*display:inline;width:33.33%;float:left;height:110px;text-align:center;position:relative}
+.changebackground .border{border:1px solid #333;height:110px}
+.changebackground .choosed{position:absolute;bottom:10px;right:10px;width:25px;height:25px;border-radius:15px;background:#36F;color:#FFF;border:1px solid #fff}
+.input_txtarea{
+  width: 100%;
+  border: none;
+  height: 160px;
+  overflow: scroll;
+  outline-color: #fff
+}
+.clo{
+  color: #04BE02;
+}

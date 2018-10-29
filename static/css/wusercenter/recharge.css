@@ -1,0 +1,57 @@
+.rechargeContainer .rechargeBox{
+  letter-spacing: 2px;
+  text-align: center;
+}
+.rechargeContainer  h3{
+  font-size: 26px;
+  font-weight: 600;
+  padding-top: 80px;
+}
+.rechargeContainer .title{
+  font-size: 18px;
+  line-height: 240%;
+}
+.rechargeContainer .inputBox input{
+  border: 1px solid #FA0;
+  line-height: 38px;
+  border-radius: 4px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+.rechargeContainer  .inputBox{
+  margin-top: 15px;
+}
+.rechargeContainer .recharge{
+  background: #FA0;
+  color: #fff;
+  width: 300px;
+  line-height: 36px;
+  margin: 20px auto;
+  border-radius: 4px;
+}
+.rechargeContainer .rechargeList{
+  line-height: 34px;
+  color: #fff;
+}
+.rechargeContainer .bgc {
+  background: #FD6148;
+}
+.rechargeContainer .list{
+  color: #000 !important;
+}
+.rechargeContainer .rechargeList div{
+  display: inline-block;
+}
+.rechargeContainer .rechargeList div:nth-child(1n){
+  width: 13%;
+}
+.rechargeContainer .rechargeList div:nth-child(2n){
+  width: 15%;
+}
+.rechargeContainer .rechargeList div:nth-child(3n){
+  width: 60%;
+}
+.rechargeContainer .rechargeList div:nth-child(4n){
+  width: 12%;
+}

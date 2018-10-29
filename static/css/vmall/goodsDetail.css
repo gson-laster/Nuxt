@@ -1,0 +1,191 @@
+.n_vmallsearch .s-val input, .new_vbshop, .new_vbshop2, .newedit_title h3{
+  font-family: '微软雅黑'
+}
+.new_vbshop, .new_vbshop2{
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 55px;
+  font-family: "微软雅黑";
+  max-width: 640px
+}
+.new_vbshop{
+  background: #F7F7F7;
+  overflow: hidden;
+}
+.goods_view{
+  padding: 0;
+  font-size: 16px;
+  color: #666;
+  background: #FFF;
+}
+.goods_view, .goods_view .goods_view_pricebg{
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.goods_view .goods_view_title{
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.goods_view .goods_view_pricebg{
+  padding: 0 10px 10px;
+  font-size: 14px;
+  border-bottom: 1px #CCC solid;
+}
+.goods_view .goods_view_spec{
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+}
+.goods_view_spec .price{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+
+.goods_view .goods_view_num{
+  float: left;
+  width: 100%;
+  margin-top: 5px;
+}
+.goods_buyan{
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+.goods_view .goods_view_con{
+  margin: 0 auto;
+  min-height: 100px;
+  padding: 20px 10px;
+  overflow: hidden;
+}
+.goods_view .goods_view_price{
+  float: left;
+  width: 100%;
+}
+.goods_view .goods_view_price span{
+  float: left;
+  color: #FFAA01;
+  font-size: 24px;
+}
+.goods_view .goods_view_price span i{
+  font-size: 16px;
+  font-style: normal;
+}
+.goods_view .goods_view_price del{
+  margin-top: 4px;
+  float: left;
+  padding-left: 10px;
+  color: #999;
+}
+.goods_view .goods_view_price h3{
+  text-align: right;
+  float: left;
+  font-size: 14px;
+  font-weight: 400;
+}
+.goods_view .goods_view_pricebg .goods_view_right{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  text-align: right;
+  background: url('~static/img/vmall/collect_icon.png') left 50% no-repeat;
+  padding-left: 25px;
+}
+.goods_view .goods_view_spec h3{
+  text-align: right;
+  float: left;
+  line-height: 29px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.goods_view .goods_view_spec div{
+  margin-left: 52px;
+}
+.goods_view .goods_view_spec label{
+  float: left;
+  margin-bottom: 5px;
+  padding: 1px 16px;
+  border: 1px solid #CCC;
+  height: 25px;
+  line-height: 25px;
+  margin-right: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.goods_view .goods_view_spec label.on{
+  border: 2px solid #FFAA01;
+  padding: 0 15px;
+  background: url('~static/img/vmall/default_size.png') right bottom no-repeat #FFF;
+}
+.goods_view .goods_view_num h3{
+  text-align: right;
+  float: left;
+  line-height: 22px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.goods_view .goods_view_num input.add, .goods_view .goods_view_num input.jian{
+  float: left;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+  background: #F6F6F6;
+  border: 1px solid #E3E3E3;
+  padding: 0;
+  font-family: "微软雅黑";
+  cursor: pointer;
+}
+.goods_view .goods_view_num input.num{
+  float: left;
+  width: 30px;
+  height: 23px;
+  text-align: center;
+  line-height: 20px;
+  background: #FFF;
+  border: none;
+  border-top: 1px #E3E3E3 solid;
+  border-bottom: 1px #E3E3E3 solid;
+  padding: 0;
+  font-size: 12px;
+}
+.goods_buyan div{
+  margin: 0 10px;
+}
+.goods_buyan input{
+  float: left;
+  background: #FFAA01;
+  border: none;
+  height: 40px;
+  line-height: 40px;
+  color: #FFF;
+}
+.goods_buyan input, .goods_buyan span{
+  width: 48%;
+  font-size: 16px;
+  font-family: "微软雅黑";
+  text-align: center;
+  cursor: pointer;
+}
+
+.goods_buyan span{
+  float: right;
+  background: #FFF;
+  border: 1px solid #CBCBCB;
+  height: 38px;
+  line-height: 38px;
+  color: #333;
+}
+.goods_view .goods_view_con img, .view_buy{
+  width: 100%;
+}

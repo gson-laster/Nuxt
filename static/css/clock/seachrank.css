@@ -1,0 +1,52 @@
+      .seachrank .record{
+        background: #C5E9F7;
+        padding: 12px 6px;
+        padding-top: 40px;
+      }
+      .seachrank .recordbg{
+        background: #FFFFFF;
+        border-radius: 2px;
+        color: #393939;
+        padding: 20px 2px;
+        position: relative;
+        padding-top: 40px;
+      }
+      .seachrank .rankimg{
+        position: absolute;
+        top: -25px;
+        left: calc(50% - 25px);
+        width: 50px;
+        height: 50px;
+      }
+      .seachrank .rankimg img{
+        width: 100%;
+      }
+      .seachrank .recordbg span{
+        float: right;
+      }
+      .seachrank .record span{
+        color: #468CCA;
+      }
+      @media only screen and (min-width: 360px)  {
+        .seachrank .recordbg{
+          padding: 20px;
+          padding-top: 40px;
+        }
+        .seachrank .record{
+          padding: 20px;
+          padding-bottom: 8px;
+          padding-top: 40px;
+        }
+      }
+      .seachrank .rankinglistbg{
+        margin-top: 15px;
+      }
+     .seachrank  .chakan{
+        text-align: center;
+        color: #444B4D;
+        padding-top: 10px;
+      }
+      .seachrank .chakan span{
+        color: #458BC9;
+        font-size: 24px;
+      }

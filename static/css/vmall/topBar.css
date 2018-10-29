@@ -1,0 +1,23 @@
+.vmall.newedit_title{
+  margin: 0 auto;
+  max-width: 640px;
+  overflow: hidden;
+  background: #F7F7F7;
+  position: relative;
+}
+.vmall.newedit_title span{
+  position: absolute;
+  width: 45px;
+  background: url('~static/img/vmall/vmallToBar_left_arrow.png') center 50% no-repeat;
+}
+.vmall.newedit_title h3, .vmall.newedit_title span{
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+}
+.vmall.newedit_title h3{
+  float: left;
+  width: 100%;
+  font-size: 16px;
+  color: #333;
+}

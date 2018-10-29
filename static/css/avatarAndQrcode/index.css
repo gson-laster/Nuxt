@@ -1,0 +1,116 @@
+
+.new_wvcon_info{
+  width: 100%;
+  max-width: 640px;
+  overflow: hidden;
+  padding:20px 0px;
+  border-bottom: 1px solid #e8e8e8;
+  border-top: 1px solid #e8e8e8;
+  background-color: #fff;
+}
+.new_wvcon_info .userinfo{
+  width: 96%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  background: #fff;
+  padding: 0 10px;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+}
+.new_wvcon_info .userinfo div{
+  width: 50%;
+}
+.new_wvcon_info .userinfo .userinfo_ewm{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+}
+.new_wvcon_info .userinfo .userinfo_ewm img{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  text-align: center;
+  margin:  auto;
+}
+.new_wvcon_info .userinfo .userinfo_ewm span{
+  text-align: center;
+  font-size: 14px;
+  margin-top: 2px;
+}
+.new_wvcon_info .userinfo .userinfo_ewm a{
+  text-align: center;
+  display: block;
+  margin:auto;
+  color: #fff;
+  border-radius: 8px;
+  background: #6599FF url(../../img/avatarAndQrcode/new_tel2.png?1611161132) 10px 50% no-repeat;
+  font-size: 14px;
+  padding: 4px 0px;
+  width: 110px;
+  padding-left:24px;
+  margin-top: 8px;
+}
+.new_wvcon_info .userinfo .userinfo_ewm2 img{
+  height: 100%;
+}
+
+/* .userinfo .userinfo_ewm{
+  float: left;
+  width: 50%;
+  text-align: center;
+  border-right: 1px #CCC solid;
+  padding: 0 0 10px;
+}
+.userinfo .userinfo_ewm2{
+ float: right;
+  width: 45%;
+  margin-left: 4px;
+  padding: 0;
+  text-align: center;
+  position: absolute;
+  right: 25px;
+  margin-bottom: 50px;
+}
+.userinfo .userinfo_ewm2 img{
+ float: left;
+  width: 100%;
+  height: 171px;
+  margin-left: 15px;
+}
+.userinfo .userinfo_ewm img{
+ float: left;
+  width: 84px;
+  height: 84px;
+  margin: 0 34px;
+  border-radius: 70px;
+  box-shadow: 0 0 0 3px #CBCCCA;
+  margin-top: 5px;
+}
+.userinfo .userinfo_ewm span{
+ float: left;
+  width: 100%;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+  text-align: left;
+  text-indent: 18px;
+}
+.userinfo .userinfo_ewm a{
+ float: left;
+  width: 110px;
+  background: #6599FF url(../../img/avatarAndQrcode/new_tel2.png?1611161132) 10px 50% no-repeat;
+  border-radius: 10px;
+  color: #FFF;
+  font-size: 14px;
+  padding: 5px 0;
+  font-family: "微软雅黑";
+  background-size: 20px;
+  padding-left: 30px;
+  margin-top: 5px;
+  margin-left: 10px;
+} */

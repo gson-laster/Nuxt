@@ -1,0 +1,109 @@
+.brand .new_brand_ts div {
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  color: #F4AC00;
+  line-height: 24px;
+  padding-top: 15px;
+  margin-bottom: 5px;
+}
+
+.brand .new_brand_ts p {
+  padding-left: 15px;
+  line-height: 24px;
+}
+.brand .new_brand_an {
+  text-align: center;
+}
+.brand .new_brand_an button {
+  border-radius: 5px;
+  background: #FFAA01;
+  line-height: 35px;
+  color: #FFF;
+  width: 110px;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+.brand .new_brand_an button:first-child {
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.brand .new_brand_list .conbrand span {
+  line-height: 24px;
+  /*height: 32px;
+  overflow: hidden;
+  text-overflow: ellipsis;*/
+}
+.brand .brand_list_search {
+  height: 54px;
+}
+.brand .brand_list_search .brand_list_search_warrp {
+  height: 42px;
+  margin: 24px auto 0 auto;
+  width: 80%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.brand .brand_list_search .brand_list_search_inp {
+  width: 80%;
+  height: 40px;
+  line-height: 1em;
+  border-radius: 8px;
+  padding-left: 12px;
+}
+.brand .brand_list_search .brand_list_search_btn {
+  background: url(~static/img/common/new_icon_vb2.png) no-repeat;
+  background-size: 40px;
+  background-position: center center;
+  width: 15%;
+  height: 100%;
+  border: none;
+  float: right;
+}
+.brand .new_brand_list .imgsbrand {
+  position: absolute;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.brand  .conbrand h3 {
+  float: left;
+  width: 100%;
+  font-size: 16px;
+  color: #5A5A5A;
+  font-weight: 400;
+}
+.brand .new_brand_list .conbrand {
+  /*margin: 0 80px;*/
+  margin-left: 80px;
+  margin-right: 90px;
+  /*height: 60px;*/
+  padding: 10px 0;
+  font-size: 14px;
+  color: #999;
+}
+.brand .new_brand_list .an span {
+  height: 34px;
+  width: 60px;
+  line-height: 34px;
+  font-size: 16px;
+  color: #FFF;
+  float: left;
+  border-radius: 5px;
+  text-align: center;
+  background: #DADBDD;
+}
+.brand .new_brand_list .an {
+  position: absolute;
+  padding: 23px 10px;
+  top: 0;
+  right: 20px;
+}
+.brand .new_brand_list li {
+  border-bottom: 1px #F3F3F3 solid;
+  position: relative;
+}

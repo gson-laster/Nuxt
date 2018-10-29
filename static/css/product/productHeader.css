@@ -1,0 +1,160 @@
+.optionlists {
+  font-size: 1.4rem;
+  max-width: 640px;
+  margin: 0 auto;
+  color: #000;
+  font-size: 14px;
+}
+
+.optionlists .list {
+  position: relative;
+  background: #fff;
+  height: 278px;
+  overflow: hidden;
+}
+
+.optionlists .list .focus::before {
+  position: absolute;
+  left: 0;
+  content: '';
+  top: 0;
+  height: 100%;
+  width: 3px;
+  background: #ff8533;
+}
+
+.optionlists .list ul {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+.optionlists .list .focusin,
+.optionlists .list .focus {
+  background-color: #F8F9FB
+}
+
+.optionlists .list .focusin,
+.optionlists .list .focus,
+.optionlists .focusin a,
+.optionlists .focus a {
+  color: #ff8533
+}
+
+.selectregion {
+  position: relative;
+  background: #fdfdfd;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0px 1px 6px 0px #ccc;
+}
+.selectregion .submore,
+.selectregion .regionlist {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 20000
+}
+.optionlists .list ul {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+.optionlists .list a {
+  display: block;
+  line-height: 40px;
+  height: 40px;
+  width: 100%;
+  color: #000;
+}
+.selectsubreion .subregionlist li,
+.selectregion .submore li {
+  border-bottom: 1px solid #DCDCDC;
+}
+
+.new_brandlist_title {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 640px;
+  height: 50px;
+  line-height: 50px;
+  background: #F5F5F5;
+  overflow: hidden;
+  position: relative;
+  font-size: 18px;
+  text-align: center;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.new_brandlist_title ul {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  right: 0px;
+  background: #FFFFFF;
+  top: 0px;
+  box-shadow: -1px 1px 5px #999;
+}
+
+.optionlists .list li {
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 12px;
+  box-sizing: border-box;
+  width: 100%;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+.menunav {
+  display: -webkit-box;
+  width: 100%;
+  margin: 0 auto;
+  background: #FFF;
+  font-size: 1.4rem;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+}
+
+.menunav span {
+  display: block;
+  text-align: center;
+  max-width: 100%;
+}
+
+.g-overflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.menunav li {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: #333;
+  background: url(../../img/product/brandmb_04.png) center 50% no-repeat;
+  background-size: 20px;
+}

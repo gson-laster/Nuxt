@@ -1,0 +1,52 @@
+.confirm{
+  position: fixed;
+  top: 0;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5) !important;
+  display: flex;
+  z-index: 999999;
+}
+.comfirmbox{
+  text-align: center;
+  align-self: center;
+  margin: 0 auto;
+  width: 90%;
+  border-radius: 5px;
+  overflow: hidden;
+  animation: ani .12s ease-out forwards -.02s;
+  transform: scale(0);
+}
+@-webkit-keyframes ani{
+	from{
+    transform: scale(.5);
+    opacity: 0;
+	}
+	to{
+    transform: scale(1);
+    opacity: 1;
+	}
+}
+.btnconfirm{
+  background: #F2F2F2;
+}
+.btnconfirm ul{
+  display: table;
+  width: 100%;
+}
+.btnconfirm li{
+  display: table-cell;
+  width: 50%;
+  line-height: 50px;
+  border-top: 1px solid #D0D0D0;
+  box-sizing: border-box;
+}
+.btnconfirm li:last-child{
+  border-left: 1px solid #D0D0D0;
+  color: #40AFFE;
+}
+.confirmcontent{
+  padding: 50px 30px;
+  background: #fff;
+}

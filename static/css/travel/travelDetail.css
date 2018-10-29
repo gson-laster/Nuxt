@@ -1,0 +1,50 @@
+.lytc_tab_t{
+  margin: 0 auto;
+  padding: 0;
+  border-bottom: 1px #CBCBCB solid;
+  overflow: hidden;
+  background: #FFF;
+  position: relative;
+  font-size: 18px;
+  font-family: "微软雅黑";
+}
+.lytc_tab_t ul{
+  float: left;
+  width: 100%;
+  padding-top: 5px;
+}
+.lytc_tab_t ul li.a{
+  border-bottom: 5px #FA0 solid;
+}
+.lytc_tab_t ul li{
+  float: left;
+  width: 50%;
+  height: 45px;
+  line-height: 40px;
+  text-align: center;
+}
+.lytc_tab_t ul li{
+  float: left;
+  width: 50%;
+  height: 45px;
+  line-height: 40px;
+  text-align: center;
+}
+.lytc_tab_line{
+  position: absolute;
+  left: 50%;
+  height: 45px;
+  bottom: 0;
+  width: 1px;
+  background: #CCC;
+}
+.lytc_con_line{
+  float: left;
+  width: 100%;
+  border-bottom: 1px #CCC solid;
+  height: 1px;
+  margin: 10px 0;
+}
+.t_center{
+  text-align: center;
+}

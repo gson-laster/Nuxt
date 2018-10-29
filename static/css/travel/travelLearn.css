@@ -1,0 +1,137 @@
+.new_lytcorder_con{
+  margin: 0 auto;
+  padding: 20px;
+  overflow: hidden;
+  background: #F7F7F7;
+}
+.new_lytcorder_con .new_lytcorder_t1{
+  float: left;
+  width: 100%;
+  font-size: 20px;
+  font-family: "微软雅黑";
+  line-height: 150%;
+  color: #FA0;
+}
+.new_lytcorder_con .new_lytcorder_t2{
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 22px;
+  font-family: "微软雅黑";
+  line-height: 150%;
+}
+.new_lytcorder_con .new_lytcorder_t3{
+  float: left;
+  width: 100%;
+  font-size: 18px;
+  font-family: "微软雅黑";
+  line-height: 150%;
+  color: #959595;
+}
+.new_lytcorder_con .new_lytcorder_t3 b{
+  font-size: 20px;
+  color: #FA0;  
+}
+.new_lytcorder_con .new_lytcorder_t3 i{
+  font-size: 16px;
+  color: #699391;
+  margin-left: 5px;
+  font-style: normal;
+}
+.new_lytcorder_con .new_lytcorder_t3 span{
+  font-size: 18px;
+  color: #FA0;
+}
+.new_lytcform{
+  margin: 0 20px;
+  overflow: hidden;
+  position: relative;
+}
+.new_lytcform ul{
+  float: left;
+  width: 100%;
+}
+.new_lytcform ul li{
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+}
+.new_lytcform ul li div.t{
+  float: left;
+  width: 100px;
+  text-align: right;
+  font-size: 18px;
+  font-family: "微软雅黑";
+  line-height: 52px;
+}
+.new_lytcform_ps{
+  margin: 0 20px;
+  text-align: center;
+  color: #999;
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: "微软雅黑";
+}
+.new_lytcform_ps span{
+  color: #FA0;
+  width: 100%;
+  float: left;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+.new_lytcform_an{
+  margin: 0 5px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.new_lytcform_an input{
+  padding: 0 40px;
+  margin-top: 20px;
+  text-align: center;
+  color: #FFF;
+  background: #FA0;
+  border: none;
+  font-size: 20px;
+  line-height: 45px;
+}
+.new_lytcform ul li div.input{
+  margin-left: 100px;
+  border: 1px #CCC solid;
+  overflow: hidden;
+  padding: 0 10px;
+  background: #FFF;
+}
+.new_lytcform ul li div.input input{
+  float: left;
+  width: 100%;
+  border: none;
+  line-height: 45px;
+  font-size: 18px;
+  font-family: "微软雅黑";
+}
+@media screen and (max-width: 380px){
+  .new_lytcorder_con .new_lytcorder_t1{
+    font-size: 14px;
+  }
+  .new_lytcorder_con .new_lytcorder_t2{
+    font-size: 16px;
+  }
+  .new_lytcorder_con .new_lytcorder_t3{
+    font-size: 14px;
+  }
+  .new_lytcorder_con .new_lytcorder_t3 b{
+    font-size: 16px;
+  }
+  .new_lytcorder_con .new_lytcorder_t3 i{
+    font-size: 13px;
+  }
+  .new_lytcorder_con .new_lytcorder_t3 span{
+    font-size: 14px;
+  }
+  .new_lytcform_ps span{
+    font-size: 16px;
+  }
+  .new_lytcform ul li div.input input, .new_lytcform ul li div.t, .new_lytcform_ps{
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,83 @@
+.new_login.bg {
+  background: url(~static/img/login/newmb_01.jpg) 100% 100% no-repeat;
+}
+.new_login.box {
+  overflow: hidden;
+}
+.new_login .new_login_logo {
+  text-align: center;
+  font-size: 20px;
+  line-height: 60px;
+  color: #000066;
+  margin-top: 60px;
+}
+.new_login .new_login_con {
+  margin: auto 20px;
+  margin-top: 30px;
+}
+.new_login .btnbox {
+  margin: 0 20px;
+  text-align: center;
+}
+.new_login .new_login_input1 {
+  margin-bottom: 20px;
+}
+.new_login .new_login_con input {
+  width: 100%;
+  border: none;
+  outline: none;
+  line-height: 46px;
+  margin-left: 46px;
+  box-sizing: border-box;
+  background: #EBEBEB;
+  color: #000000;
+}
+.new_login .new_login_con input::-webkit-input-placeholder {
+  color: #A9A9A9;
+  font-size: 16px;
+}
+.new_login .new_login_con>div {
+  background: #EBEBEB;
+  border: 1px #B7BBC3 solid;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+.new_login .new_login_con .img {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%) scale(1.2);
+}
+.new_login .login-btn {
+  width: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  font-size: 16px;
+  background: #F90;
+  color: #FFF;
+  border: none;
+  line-height: 45px;
+  font-family: "微软雅黑";
+  margin-top: 15px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+.new_login .btn{
+  margin-top: 20px;
+  padding: 0.6em 1em;
+  border-radius: 4px;
+}
+.new_login .new_login_nav {
+  text-align: center;
+}
+.new_login .new_login_navwx {
+  text-align: center;
+  color: #f90;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.new_login .wx {
+  transform: translateY(8px);
+}

@@ -1,0 +1,141 @@
+.box{
+  font-size: 16px;
+  color: #3B3B3B;
+}
+.addClassify{
+  background-color: #FFFFFF;
+  line-height: 46px;
+  margin: 12px 0;
+  padding-left: 12px;
+}
+.contentList{
+  background-color: #FFFFFF;
+}
+.list{
+  line-height: 46px;
+  margin-left: 12px;
+  border-bottom: 1px solid #EEEEEE;
+  position: relative;
+}
+.draft{
+  background-color: #FFFFFF;
+  margin-top: 14px;
+  margin-left: 0;
+  padding-left: 12px;
+}
+.editBox{
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #FFFFFF;
+  height: 46px;
+}
+.editBox img{
+  height: 16px;
+  margin-right: 3px;
+  vertical-align: middle;
+}
+.editBox span{
+  color: #888888;
+  display: inline-block;
+  margin-right: 6px;
+  font-size: 14px;
+}
+.editBox span:last-child{
+  color: #ED724C;
+}
+.selectFirstClassify dl{
+  line-height: 26px;
+  text-align: center;
+  font-size: 14px;
+}
+.selectFirstClassify{
+  width: 160px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.selectFirstClassify dt, .selectFirstClassify dd{
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+.selectFirstClassify dt{
+  border: 1px solid #FFAA00;
+  width: 160px;
+  background-position: right 8px center;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #FFAA00;
+  background-size: auto 6px;
+}
+.dtBox{
+  position: relative;
+}
+.ddBox{
+  position: absolute;
+  bottom: -54px;
+  overflow: scroll;
+  height: 54px;
+}
+.selectFirstClassify dd{
+  width: 160px;
+  border: 1px solid #FFAA00;
+  border-top: none;
+  display: none;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dtBox:before{
+  content: '所属分类:';
+  position: absolute;
+  left: -62px;
+}
+.dt{
+  line-height: 32px;
+  border: 1px solid #FFAA00;
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.btmslider{
+  position: fixed;
+  bottom: 0;
+  max-width: 640px;
+  width: 100%;
+  z-index: 9999999999;
+  transform: translateY(100%);
+  transition: all 100ms ease-out;
+  background: #EFEFF4;
+}
+.btmslider li, .btmslider .qxclass{
+  text-align: center;
+  font-size: 16px;
+  padding: 12px 0;
+  background: #FFFFFF;
+  border-bottom: 1px solid #D9D9D9;
+}
+.qxclass {
+  margin-top: 20px;
+}
+.firstClassify{
+  height: 164px;
+  overflow-y: scroll;
+}
+/* 设置滚动条的样式 */
+.btmslider::-webkit-scrollbar { width: 12px;}/* 滚动槽 */
+.btmslider::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); border-radius: 10px;}/* 滚动条滑块 */
+.btmslider::-webkit-scrollbar-thumb { border-radius: 10px; background: rgba(0,0,0,0.1);
+ -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);}
+ .btmslider::-webkit-scrollbar-thumb:window-inactive { background: rgba(255,0,0,0.4);}
+ .firstClassify{
+   border-top: 1px solid #D9D9D9;
+ }
+.list .img{
+  /*vertical-align: middle;*/
+}
+.delete {
+  margin-right: 4px;
+}

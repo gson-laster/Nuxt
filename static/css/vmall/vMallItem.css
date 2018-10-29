@@ -1,0 +1,53 @@
+.n_vmalllist ul li{
+  float: left;
+  width: 50%;
+  padding: 5px 0;
+}
+.n_vmalllist .n_vmalllist_con{
+  margin: 0 5px;
+  border: 1px solid #CCC;
+  position: relative;
+  padding-bottom: 5px;
+}
+.n_vmalllist .n_vmalllist_con .n_vmalllist_img{
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+}
+.n_vmalllist .n_vmalllist_con .n_vmalllist_img img{
+  float: left;
+  width: 100%;
+}
+.n_vmalllist .n_vmalllist_con .title{
+  margin: 5px auto 0;
+  padding: 0 10px;
+  font-size: 16px;
+  overflow: hidden;
+}
+.n_vmalllist .n_vmalllist_con .price{
+  margin: 0 auto;
+  padding: 0 10px;
+  font-size: 14px;
+  color: #999;
+}
+.n_vmalllist .n_vmalllist_con .price span{
+  color: red;
+  padding-right: 10px;
+}
+
+.n_vmalllist .n_vmalllist_con .buy{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.n_vmalllist .n_vmalllist_con .buy{
+  float: left;
+  text-align: center;
+  color: #FFF;
+  background: #FFAA01;
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  border-radius: 4px;
+}

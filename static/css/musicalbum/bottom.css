@@ -1,0 +1,83 @@
+.musicBtm.bottom {
+  position: fixed;
+  bottom: 0;
+  max-width: 640px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  height: 74px;
+  z-index: 99999999;
+  color: #fff
+}
+.musicBtm .bottom div {
+  display: inline-block;
+  color: #ffffff;
+}
+.musicBtm .names,
+.want {
+  line-height: 58px;
+  float: left;
+}
+.musicBtm .userInfoimg {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 12px;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  float: left;
+}
+.musicBtm .userInfoimg img {
+  width: 100%;
+}
+.musicBtm .names {
+  margin-left: 12px;
+  line-height: 74px;
+}
+.musicBtm .want {
+  float: right;
+  padding-right: 8px;
+  height: 46px;
+  width: 120px;
+  text-align: center;
+  line-height: 46px;
+  background: #52D203;
+  font-size: 16px;
+  margin: 16px 18px;
+  border-radius: 8px;
+}
+.musicBtm .want span {
+  padding: .2em .4em;
+  border-radius: 2px;
+}
+.musicBtm .confirmCancel {
+  position: absolute;
+  bottom: 74px;
+  right: 12px;
+}
+.musicBtm .confirmCancel div {
+  /*display: inline-block;*/
+  line-height: 25px;
+  height: 25px;
+  padding: 6px 16px;
+  font-size: 16px;
+  margin-left: 12px;
+  margin-top: 12px;
+  border-radius: 4px;
+}
+.musicBtm .cancel {
+  background: #EF4F4F;
+}
+.musicBtm .confirm {
+  background: #fa0;
+}
+.music_text {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: -40px;
+  top: 30px;
+  width: 60px;
+}
+.music_text_hid {
+  visibility: hidden;
+}

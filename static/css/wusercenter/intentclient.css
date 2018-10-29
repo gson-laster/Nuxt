@@ -1,0 +1,47 @@
+@import 'total.css';
+.new_usertitle {
+    margin: 10px auto 0;
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 20px;
+    color: #F60;
+}
+.lytcorder_list {
+    margin: 10px 10px 0;
+    overflow: hidden;
+}
+.lytcorder_list ul li span:first-child {
+    border: none;
+}
+.lytcorder_list li span {
+    float: left;
+    width: 100%;
+    text-align: left;
+    padding: 8px 0;
+    border-top: 1px #E8E8E8 solid;
+}
+.lytcorder_list ul li {
+    padding: 0 10px;
+    overflow: hidden;
+    background: #FFF;
+    margin-top: 10px;
+    border-top: 2px #FD6148 solid;
+}
+.lytcorder_list ul li i {
+    background: #FD6148;
+    color: #FFF;
+    padding: 8px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-style: normal;
+    overflow: hidden;
+}
+.lytcorder_list ul .an {
+    padding: 24px 0;
+    text-align: center;
+}
+.other{
+  text-align: center;
+  padding-top: 20px;
+}

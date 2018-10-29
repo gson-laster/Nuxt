@@ -1,0 +1,133 @@
+.travel .lytc_tab .lytc_tab_nav .active {
+  background: #FEC144;
+}
+.travel .lytc_tab .lytc_tab_nav .active a {
+  color: #fefefe;
+}
+.lytc_tab {
+  float: left;
+  width: 100%;
+  position: relative;
+  font-family: "微软雅黑";
+  font-size: 16px;
+}
+.lytc_tab .lytc_tab_nav {
+  float: left;
+  width: 100%;
+  border-bottom: 1px #CCC solid;
+}
+.lytc_tab .lytc_tab_nav li {
+  float: left;
+  width: 20%;
+  text-align: center;
+  line-height: 30px;
+  position: relative;
+  cursor: pointer;
+}
+.lytc_tab .lytc_tab_nav li:first-child,
+.lytc_tab .lytc_tab_nav li:last-child {
+  width: 20%;
+}
+.lytc_tab_con {
+  float: left;
+  width: 100%;
+  position: absolute;
+  background: #F7F7F7;
+  border-bottom: 1px #CCC solid;
+  top: 31px;
+  z-index: 1000;
+}
+.lytc_tab .lytc_tab_nav li i {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  height: 20px;
+  width: 1px;
+  background: #CCC;
+}
+.lytc_tab_con#lytc_tab_con1 ul {
+  margin: 0 10px;
+}
+.lytc_tab_close {
+  border-radius: 0 0 5px 5px;
+  float: left;
+  position: absolute;
+  width: 60px;
+  left: 50%;
+  margin-left: -30px;
+  bottom: -30px;
+  line-height: 30px;
+  background: #CCC;
+  cursor: pointer;
+  text-align: center;
+}
+
+.lytc_tab_con ul li {
+  float: left;
+  font-size: 14px;
+}
+.lytc_tab_con .full-raw {
+  width: 100%;
+  border-bottom: 1px #CCC solid;
+  text-indent: 10px;
+}
+.lytc_tab_con .full-raw:last-child {
+  border-bottom: 0;
+}
+.lytc_tab_con ul li a {
+  float: left;
+  width: 100%;
+  line-height: 35px;
+  height: 35px;
+  overflow: hidden;
+}
+.lytc_tab_con ul li a.a {
+  color: #FEC144
+}
+.lytc_tab_con ul {
+  float: left;
+  width: 100%;
+}
+.lytc_tab_con .col-3 {
+  width: 33.3%;
+  text-align: center;
+}
+.lytc_tab_con ul li.active a {
+  color: #FEC144;
+}
+.form-item {
+  padding-left: 5px;
+  text-align: center;
+  margin-top: 12px;
+}
+.form-item label {
+  display: block;
+  text-align: left;
+}
+.form-item input[type="text"] {
+  width: 24%;
+  height: 28px;
+  line-height: 28px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  outline: none;
+  text-align: center;
+}
+.form-item span {
+  display: inline-block;
+  width: 30%;
+  height: 28px;
+  line-height: 28px;
+}
+.selecte-btn {
+  width: 88%;
+  height: 32px;
+  line-height: 32px;
+  background: RGBA(39, 203, 34, 0.6);
+  border-radius: 4px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  color: #fff;
+  border: 1px solid #22CB64;
+  outline: none;
+}

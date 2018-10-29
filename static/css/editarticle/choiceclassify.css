@@ -1,0 +1,75 @@
+.choicebox {
+  position: fixed;
+  bottom: 0;
+  height: 250px;
+  overflow-y: scroll;
+  width: 100%;
+  max-width: 640px;
+  background-color: RGBA(38, 38, 38, .6);
+  font-size: 16px;
+  color: #fff;
+  padding-bottom: 20px;
+  animation: ani 140ms forwards;
+}
+@-webkit-keyframes ani {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.List li {
+  float: left;
+  width: 100px;
+  /*margin-left: 10px;
+  margin-top: 10px;*/
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 14px;
+  width: 33.33%;
+  box-sizing: border-box;
+  margin-top: 12px;
+}
+.List li em {
+  border: 1px solid #ccc;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+.List span {
+  padding-left: 12px;
+  display: inline-block;
+  padding-top: 8px;
+  padding-bottom: 6px;
+}
+.btnList li {
+  width: 33.333% !important;
+  box-sizing: border-box;
+  margin-left: 0 !important;
+  border: none;
+}
+.btnList li em {
+  border: 1px solid #ccc;
+  width: 94px;
+  border-radius: 4px;
+}
+.btnList li:first-child div {
+  float: left;
+  margin-left: 12px;
+}
+.btnList li:last-child em {
+  float: right;
+  margin-right: 12px;
+  border: 1px solid #fa0;
+  color: #fa0;
+}
+.btnList li:nth-child(2) div {
+  margin: 0 auto;
+}
+.List .active em {
+  background: #FFAA00;
+  border: 1px solid #FFAA00 !important
+}

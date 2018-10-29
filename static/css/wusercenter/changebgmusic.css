@@ -1,0 +1,118 @@
+body {
+  padding-top: 0;
+}
+.changebgmusics .contain {
+  height: 100%;
+  background: #F3F3F3;
+}
+.changebgmusics .slidebox ul {
+  background: #FFFFFF;
+}
+.changebgmusics .swiper-slide {
+  padding: 12px 0;
+  box-sizing: border-box;
+}
+.changebgmusics .slidebox {
+  height: 72vh;
+  overflow-y: scroll;
+}
+.changebgmusics .slidebox li {
+  border-bottom: 1px #dedede solid;
+  position: relative;
+  height: 62px;
+  padding: 6px;
+  /*display: -webkit-flex;*/
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+.changebgmusics .slidebox li p {
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.changebgmusics .imgs {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  box-sizing: border-box;
+}
+.changebgmusics .slidebox li p {
+  margin-left: 64px;
+  align-self: center;
+  font-size: 16px;
+  padding-right: 21px;
+  line-height: 60px;
+}
+.changebgmusics .singername,
+.changebgmusics .songname {
+  display: inline-block;
+  width: 50%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.changebgmusics .singername {
+  text-align: right;
+  position: absolute;
+  right: 12px;
+}
+.changebgmusics .active {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  background-image: url(../../img/wusercenter/confirm.png);
+  background-size: 30px auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 87px;
+  top: 50%;
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  margin-top: -19px;
+}
+.changebgmusics .btnbox {
+  text-align: center;
+}
+.changebgmusics .btnbox button {
+  margin: 20px auto 0;
+  border-radius: 5px;
+  border: none;
+  min-width: 120px;
+  padding: 0 20px;
+  background: #FDAB01;
+  line-height: 36px;
+  font-size: 16px;
+  color: #FFF;
+  text-align: center;
+  font-family: "微软雅黑";
+}
+.changebgmusics .btnbox button:first-child {
+  margin-right: 20px;
+}
+.changebgmusics .seach {
+  padding: 12px 0;
+  box-sizing: border-box;
+  position: relative;
+}
+.seach input {
+  line-height: 28px;
+  width: 100%;
+  /*text-align: center;*/
+  padding-left: 12px;
+}
+.changebgmusics .seachInp {
+  margin-left: 12px;
+  margin-right: 80px;
+}
+.changebgmusics .seach div:last-child {
+  position: absolute;
+  right: 12px;
+  width: 60px;
+  line-height: 28px;
+  top: 12px;
+  text-align: center;
+  background: #FDAB01;
+  color: #fff;
+  border-radius: 4px;
+}

@@ -1,0 +1,251 @@
+#info.newcard {
+  background-color: #C3C6CF;
+  border: 1px solid transparent;
+  padding-bottom: 60px;
+}
+#info .new_userinfo1 {
+  margin: 10px 10px 0;
+  background: #F7F7F7;
+  padding: 10px;
+  overflow: hidden;
+  position: relative
+}
+
+#info .new_shoucang,
+#info .new_wx {
+  position: absolute;
+  right: 10px
+}
+
+#info .new_userlogo img {
+  height: 100px;
+  overflow: hidden;
+  width: 100px;
+  border-radius: 50px;
+  box-shadow: 0 0 0 3px #B3B3B3;
+  float: left;
+  margin: 10px 20px
+}
+
+#info .new_phone a,
+#info .new_shoucang {
+  border-radius: 5px;
+  color: #FFF
+}
+
+#info .new_shoucang {
+  top: 10px;
+  background: #F1852A;
+  padding: 0 20px;
+  line-height: 180%;
+  font-size: 14px
+}
+
+#info .new_name {
+  margin-left: 130px;
+  overflow: hidden;
+  margin-top: 30px
+}
+
+#info .new_name h3 {
+  float: left;
+  font-size: 20px
+}
+
+#info .new_name span {
+  float: left;
+  margin: 2px 0 0 10px;
+  font-size: 14px
+}
+
+#info .new_phone {
+  margin-left: 130px;
+  margin-top: 10px
+}
+
+#info .new_urllink,
+#info .new_userinfo2 {
+  margin: 0 10px;
+  overflow: hidden
+}
+#info .new_wx {
+  bottom: 10px
+}
+
+#info .new_wx img {
+  float: left;
+  width: 40px
+}
+
+#info .new_userinfo2 {
+  background: #F7F7F7;
+  padding: 10px;
+  position: relative
+}
+
+#info .new_userinfo2 ul li h3,
+#info .new_userinfo2 ul li span {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAK8AAACvABQqw0mAAAABZ0RVh0Q3JlYXRpb24gVGltZQAwNC8yMy8xNeuW+jMAAAAfdEVYdFNvZnR3YXJlAE1hY3JvbWVkaWEgRmlyZXdvcmtzIDi1aNJ4AAAAwUlEQVQokZ2TwRGCMBBFX1IB171ZglSgJWAFUBpWACVgBVACXrJH0wEeSCTjjMLkHTP/ZZOdXbMsCymq2gAVcAEKwAMPoBeRNs2aKKvqCeiAM7+ZgJuIzB85iGOotIcHShGZbTjoDoqEXAdgnHM10B4UUxrL2pwcKuOce3H8ySneZooAhWXtXg7eAkOmPFigz5T7OCQj/yfrm0lEyjgkFcf/7kMeCyAiz1B52qsInEN+W4yIqtbh5ivbVg2sW3VPs2+PQkSRyAIb5QAAAABJRU5ErkJggg==) left 50% no-repeat;
+  float: left
+}
+
+#info .new_userinfo2 ul {
+  float: left;
+  width: 100%
+}
+
+#info .new_userinfo2 ul li {
+  float: left;
+  width: 100%;
+  padding: 5px 0;
+  border-bottom: 1px #DBDBDB solid;
+  font-size: 14px
+}
+
+#info .new_userinfo2 ul li.con {
+  border-bottom: none
+}
+
+#info .new_userinfo2 ul li h3 {
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 22px
+}
+
+#info .new_userinfo2 ul li span {
+  width: 50px;
+  text-align: left;
+  padding-left: 20px;
+}
+#info .new_phone a {
+  display: inline-block;
+  background-color: #F1852A;
+  background-image: url('~static/img/card/card_phone_icon.png');
+  background-repeat: no-repeat;
+  background-position: 8px center;
+}
+
+
+
+#info .new_urllink {
+  padding: 5px;
+  border-bottom: 1px #DBDBDB solid;
+  border-top: 1px #DBDBDB solid;
+  background: #F7F7F7
+}
+
+#info .new_urllink li {
+  float: left;
+  width: 25%;
+  padding: 5px 0;
+  list-style: none;
+  text-align: center
+}
+
+#info .new_urllink li div {
+  margin: 0 5px;
+  border: 1px solid #CCC;
+  background: #FFF;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  color: #333;
+  overflow: hidden
+}
+
+#info .new_urllink li:last-child div {
+  margin: 0 5px;
+  font-size: 20px;
+  color: #FF6800
+}
+#info .new_mfzz {
+  margin: 10px 10px 0;
+  overflow: hidden;
+  text-align: center
+}
+#info .new_mfzz a {
+  color: #215259;
+  font-size: 16px
+}
+#info .nowrap {
+  /* display: -webkit-box; */
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+@media screen and (max-width: 420px) {
+  #info .new_userlogo img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    box-shadow: 0 0 0 2px #B3B3B3;
+    margin: 10px 0
+  }
+
+  #info .new_name,
+  #info .new_phone {
+    margin-left: 120px
+  }
+
+  #info .new_phone a {
+    font-size: 18px;
+    padding: 5px 10px 5px 30px;
+    background-size: 15px
+  }
+
+  #info .new_urllink li div {
+    font-size: 16px;
+    line-height: 40px
+  }
+
+  #info .new_urllink li:last-child div {
+    font-size: 16px
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #info .new_userlogo img {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    box-shadow: 0 0 0 2px #B3B3B3;
+    margin: 10px 0
+  }
+
+  #info .new_name {
+    margin-left: 90px;
+    overflow: hidden;
+    margin-top: 10px
+  }
+
+  #info .new_name h3 {
+    float: left;
+    font-size: 18px
+  }
+
+  #info .new_name span {
+    float: left;
+    margin: 2px 0 0 10px;
+    font-size: 12px
+  }
+
+  #info .new_phone {
+    margin-left: 90px;
+    margin-top: 8px;
+  }
+
+  #info .new_phone a {
+    font-size: 14px;
+    padding: 5px 10px 5px 30px;
+    background-size: 15px
+  }
+
+  #info .new_urllink li {
+    float: left;
+    width: 50%;
+    padding: 5px 0;
+    list-style: none;
+    text-align: center
+  }
+}

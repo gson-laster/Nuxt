@@ -1,0 +1,28 @@
+.new_vbshop, .new_vbshop2{
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 55px;
+  font-family: "微软雅黑";
+}
+.n_vmalllist ul{
+  margin: 0 5px;
+  padding: 5px 0;
+  overflow: hidden;
+}
+.n_vmalllist{
+  width: 100%;
+  padding-bottom: 20px;
+}
+.n_vmalllist_t{
+  margin: 10px auto 0;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+}
+.n_vmall_gundong, .n_vmalllist{
+  margin: 10px auto 50px;
+  border-top: 1px #CCC solid;
+  background: #FFF;
+  overflow: hidden;
+}

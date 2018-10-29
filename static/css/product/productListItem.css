@@ -1,0 +1,71 @@
+.new_productlist {
+  margin: 0 auto;
+  overflow: hidden;
+  font-family: "微软雅黑";
+}
+
+.wf-box {
+  float: left;
+  box-sizing: border-box;
+  padding: 2px;
+  width: 100%;
+}
+
+.wf-box .listmk {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.wf-container {
+  margin: 0 auto;
+  /*margin-bottom: 80px;*/
+}
+
+.wf-box .listmk {
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.wf-container:after,
+.wf-container:before {
+  content: '';
+  display: table;
+}
+
+.wf-container:before,
+.wf-container:after {
+  content: '';
+  display: table;
+}
+
+.wf-column {
+  float: left;
+}
+.wf-column li {
+  border-radius: 4px;
+}
+
+.wf-box img {
+  display: block;
+  width: 100%;
+}
+
+.listmk .text {
+  font-size: 14px;
+}
+
+.listmk .text h3 {
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.listmk .text .price {
+  color: #ff0000;
+  padding: 0 8px;
+}
+
+.listmk .text .more {
+  float: right;
+  padding: 0 8px;
+}

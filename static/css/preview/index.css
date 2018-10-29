@@ -1,0 +1,80 @@
+.new_user, .new_vbshop{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 640px;
+  background: #F5F5F5;
+  overflow: hidden;
+  padding-bottom: 60px;
+}
+.new_leaflets, .new_leaflets .img, .new_recommend_ts{
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.new_leaflets{
+  width: 100%;
+  background: #FFF;
+}
+.new_leaflets .img{
+  width: 100%;
+}
+.new_leaflets .img img{
+  float: left;
+  width: 100%;
+}
+.new_leaflets .new_leaflets_list{
+  margin: 0 10px;
+  position: relative;
+  overflow: hidden;
+  border-top: 1px #DADADA solid;
+  padding: 15px 0;
+}
+.new_leaflets .new_leaflets_list.noline{
+  border-top: none;
+}
+.new_leaflets .new_leaflets_list{
+  margin: 0 10px;
+  position: relative;
+  overflow: hidden;
+  border-top: 1px #DADADA solid;
+  padding: 15px 0;
+}
+
+.new_leaflets .new_leaflets_list h3{
+  position: absolute;
+  line-height: 35px;
+  font-size: 20px;
+  color: #ED4E00;
+}
+.new_leaflets .new_leaflets_list div{
+  margin: 0 auto 0 60px;
+  line-height: 35px;
+}
+.new_leaflets .new_leaflets_list div a{
+  float: left;
+  margin: 0 10px;
+  font-size: 20px;
+}
+.new_leaflets_an a:first-child{
+  background-color: #fff;
+  color: #FD410F;
+}
+.new_leaflets_an a{
+  width: 50%;
+}
+.new_leaflets_an a{
+  float: left;
+  background: #FD410F;
+  line-height: 60px;
+  font-size: 20px;
+  text-align: center;
+  color: #FFF;
+}
+.new_leaflets_an{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 640px;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+}

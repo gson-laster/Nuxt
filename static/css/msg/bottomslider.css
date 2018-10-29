@@ -1,0 +1,41 @@
+.bom {
+  position: fixed;
+  bottom: 0;
+  max-width: 640px;
+  width: 100%;
+  z-index: 9999999999;
+  animation: transi 200ms forwards;
+  background: #EFEFF4;
+}
+@-webkit-keyframes transi{
+	from{
+	  transform: translateY(100%);
+	}
+	to{
+	  transform: translateY(0);
+	}
+}
+.firstClassify {
+  border-top: 1px solid #D9D9D9;
+}
+.firstClassify {
+  height: 164px;
+  overflow-y: scroll;
+}
+.bom li, .bom .qxclass {
+  text-align: center;
+  font-size: 16px;
+  padding: 12px 0;
+  background: #FFFFFF;
+  border-bottom: 1px solid #D9D9D9;
+}
+.bom li, .bom .qxclass {
+  text-align: center;
+  font-size: 16px;
+  padding: 12px 0;
+  background: #FFFFFF;
+  border-bottom: 1px solid #D9D9D9;
+}
+.qxclass {
+  margin-top: 20px;
+}

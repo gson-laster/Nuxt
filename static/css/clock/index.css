@@ -1,0 +1,104 @@
+ .clock .topimg img {
+   width: 100%;
+   vertical-align: middle;
+ }
+ .clock .topimg {
+   position: relative;
+ }
+ .clock .now {
+   position: absolute;
+   bottom: 0;
+   color: #FFFFFF;
+   width: 100%;
+ }
+ .clock .now ul {
+   width: 100%;
+ }
+ .clock .now li {
+   float: left;
+   width: 50%;
+   padding: 10px 20px;
+   box-sizing: border-box;
+ }
+ .clock .now li:last-child {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+ }
+ .clock .now li:first-child p:last-child {
+   font-size: 24px;
+ }
+ .clock .now li:last-child {
+   text-align: right;
+ }
+ .clock .content {
+   padding: 0 12px;
+   background: #fff;
+ }
+ .clock .imglist li {
+   float: left;
+   width: 14.285%;
+   padding: 3px;
+   box-sizing: border-box;
+   overflow: hidden;
+   height: 50px;
+ }
+ .clock .imglist li img {
+   width: 100%;
+   min-height: 50px;
+ }
+ .clock .yijing {
+   text-align: center;
+   color: #888888;
+   padding: 14px;
+ }
+ .clock .yijing span {
+   color: #FFBB31;
+ }
+ .clock .clear {
+   clear: both;
+ }
+ .clock .btn {
+   background: #80C269;
+   line-height: 40px;
+   color: #fff;
+   text-align: center;
+   border-radius: 4px;
+   margin-top: 10px;
+ }
+ .clock .fenxiangtu {
+   color: #888888;
+   text-align: center;
+   padding-top: 8px;
+   padding-bottom: 8px;
+ }
+ .clock .fenxiangtu span {
+   color: #4F91CD;
+ }
+ .clock .clockattention {
+   padding-bottom: 12px;
+   color: #FF0000;
+   text-align: center;
+ }
+ .clock .record {
+   background: linear-gradient(#F19175, #EC6941);
+   margin: 12px 0;
+   color: #fff;
+   padding: 20px 12px;
+ }
+ .clock .chakan {
+   margin-top: 20px;
+   border: 1px solid #fff;
+   text-align: center;
+   line-height: 36px;
+   color: #FFFFFF;
+ }
+ .clock .record span {
+   float: right;
+ }
+ .btn img {
+   height: 20px;
+   width: auto;
+   margin-right: 2px;
+ }
+ /* 打卡canvas结构 */

@@ -1,0 +1,334 @@
+.img {
+  background: url(../../img/img.png) no-repeat;
+  background-size: 1882px 87px;
+  display: inline-block;
+}
+
+.outLogin {
+  height: 11px;
+  width: 13px;
+  background-position: 0 0;
+}
+
+.map {
+  height: 14px;
+  width: 14px;
+  background-position: -13px 0;
+}
+
+.delete {
+  height: 14px;
+  width: 14px;
+  background-position: -27px 0;
+}
+
+.prev {
+  height: 15px;
+  width: 15px;
+  background-position: -42px 0;
+}
+
+.next {
+  height: 15px;
+  width: 15px;
+  background-position: -57px 0;
+}
+
+.opus {
+  height: 13px;
+  width: 15px;
+  background-position: -72px 0;
+}
+
+.edit {
+  height: 13px;
+  width: 15px;
+  background-position: -87px 0;
+}
+
+.miniseach {
+  height: 16px;
+  width: 16px;
+  background-position: -102px 0;
+}
+
+.loginpassword {
+  height: 20px;
+  width: 17px;
+  background-position: -118px 0;
+}
+
+.s {
+  height: 14px;
+  width: 17px;
+  background-position: -135px 0;
+}
+
+.loginname {
+  height: 20px;
+  width: 18px;
+  background-position: -152px 0;
+}
+
+.footerOne {
+  height: 21px;
+  width: 19px;
+  background-position: -170px 0;
+}
+
+.footerThree {
+  height: 21px;
+  width: 20px;
+  background-position: -189px 0;
+}
+
+.footerFour {
+  height: 21px;
+  width: 20px;
+  background-position: -210px 0;
+}
+
+.footerTwo {
+  height: 21px;
+  width: 21px;
+  background-position: -230px 0;
+}
+
+.close_btn {
+  height: 25px;
+  width: 25px;
+  background-position: -252px 0;
+}
+
+.myMoney {
+  height: 32px;
+  width: 32px;
+  background-position: -279px 0;
+}
+
+.myTeam {
+  height: 32px;
+  width: 32px;
+  background-position: -309px 0;
+}
+
+.notRealName {
+  height: 32px;
+  width: 32px;
+  background-position: -341px 0;
+}
+
+.splitBrand {
+  height: 32px;
+  width: 32px;
+  background-position: -373px 0;
+}
+
+.realname {
+  height: 32px;
+  width: 32px;
+  background-position: -405px 0;
+}
+
+.userHelp {
+  height: 32px;
+  width: 32px;
+  background-position: -437px 0;
+}
+
+.userCode {
+  height: 32px;
+  width: 32px;
+  background-position: -469px 0;
+}
+
+.poster {
+  height: 32px;
+  width: 32px;
+  background-position: -501px 0;
+}
+
+.weichatBand {
+  height: 32px;
+  width: 32px;
+  background-position: -533px 0;
+}
+
+.realCount {
+  height: 32px;
+  width: 32px;
+  background-position: -565px 0;
+}
+
+.protect {
+  height: 32px;
+  width: 32px;
+  background-position: -597px 0;
+}
+
+.contentCommend {
+  height: 32px;
+  width: 32px;
+  background-position: -629px 0;
+}
+
+.custom {
+  height: 32px;
+  width: 32px;
+  background-position: -661px 0;
+}
+
+.aplication {
+  height: 32px;
+  width: 32px;
+  background-position: -693px 0;
+}
+
+.articleEdit {
+  height: 32px;
+  width: 32px;
+  background-position: -725px 0;
+}
+
+.card {
+  height: 32px;
+  width: 32px;
+  background-position: -757px 0;
+}
+
+.changePassword {
+  height: 32px;
+  width: 32px;
+  background-position: -789px 0;
+}
+
+.agent {
+  height: 32px;
+  width: 32px;
+  background-position: -821px 0;
+}
+
+.inviteFriend {
+  height: 32px;
+  width: 32px;
+  background-position: -853px 0;
+}
+
+.musicAlbum {
+  height: 32px;
+  width: 32px;
+  background-position: -885px 0;
+}
+
+.goShoping {
+  height: 32px;
+  width: 32px;
+  background-position: -917px 0;
+}
+.IntentionalCustomer {
+  height: 32px;
+  width: 32px;
+  background-position: -949px 0;
+}
+
+.interestPhoto {
+  height: 32px;
+  width: 32px;
+  background-position: -981px 0;
+}
+
+.wx {
+  height: 30px;
+  width: 32px;
+  background-position: -1013px 0;
+}
+
+.VIP {
+  height: 31px;
+  width: 34px;
+  background-position: -1046px 0;
+}
+
+.data {
+  height: 34px;
+  width: 37px;
+  background-position: -1080px 0;
+}
+
+.view_png_05 {
+  height: 45px;
+  width: 45px;
+  background-position: -1117px 0;
+}
+
+.view_png_03 {
+  height: 45px;
+  width: 45px;
+  background-position: -1162px 0;
+}
+
+.view_png_02 {
+  height: 45px;
+  width: 45px;
+  background-position: -1207px 0;
+}
+
+.view_png_01 {
+  height: 45px;
+  width: 45px;
+  background-position: -1252px 0;
+}
+
+.n_search_an {
+  height: 32px;
+  width: 52px;
+  background-position: -1297px 0;
+}
+
+.btnl {
+  height: 52px;
+  width: 52px;
+  background-position: -1350px 0;
+}
+
+.btnr {
+  height: 52px;
+  width: 52px;
+  background-position: -1402px 0;
+}
+
+.vbmanager {
+  height: 53px;
+  width: 53px;
+  background-position: -1454px 0;
+}
+
+.vbmanager1 {
+  height: 53px;
+  width: 53px;
+  background-position: -1507px 0;
+}
+
+.vbgl_01 {
+  height: 72px;
+  width: 72px;
+  background-position: -1560px 0;
+}
+
+.showdate {
+  height: 9px;
+  width: 73px;
+  background-position: -1632px 0;
+}
+
+.avatar_icon {
+  height: 87px;
+  width: 87px;
+  background-position: -1705px 0;
+}
+
+.time {
+  height: 35px;
+  width: 89px;
+  background-position: -1792px 0;
+}

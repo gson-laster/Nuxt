@@ -1,0 +1,203 @@
+.lytc_canshu {
+  margin: 0 auto;
+  padding: 10px;
+  overflow: hidden;
+  background: #FFF;
+  position: relative;
+}
+
+.lytc_canshu .lytc_mk {
+  float: left;
+  width: 100%;
+}
+
+.lytc_price2 {
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.lytc_price2 span {
+  float: left;
+  font-size: 36px;
+  color: #FA0;
+  font-weight: 700;
+}
+
+.lytc_price,
+.lytc_time {
+  float: left;
+  line-height: 160%;
+  width: 100%;
+  font-size: 16px;
+  color: #999;
+}
+
+.lytc_price span {
+  float: left;
+  font-size: 16px;
+  color: #699391;
+}
+
+.lytc_price i {
+  float: left;
+  padding: 0 5px;
+  font-size: 16px;
+  margin-top: 2px;
+  margin-left: 10px;
+  line-height: 160%;
+  background: #855B9D;
+  color: #FFF;
+  font-style: normal;
+}
+
+.lytc_time span {
+  color: #FA0
+}
+
+.lytc_like {
+  position: absolute;
+  right: 10px;
+  bottom: 30px;
+  width: 80px;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 32px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.lytc_like .icon {
+  position: absolute;
+  top: 0px;
+  font-size:24px;
+  color: #FA0;
+  text-align: center;
+  left: 50%;
+  transform:translate3d(-50%,0,0);  
+}
+
+.lytc_like i {
+  font-style: normal;
+}
+
+.lytc_canshu .lytc_sc {
+  float: right;
+  width: 80px;
+  text-align: center;
+  font-size: 16px;
+  color: #C6C6C6;
+  cursor: pointer;
+  border-left: 1px #C6C6C6 solid;
+  position: relative;
+  padding-top: 50px;
+}
+
+.lytc_sc.fxdpy span {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate3d(-50%, -50%, 0);
+  font-size: 30px;
+  color: #FA0;
+}
+
+.lytc_canshu2 {
+  margin: 0 auto;
+  padding: 20px 10px 20px 10px;
+  border-bottom: 1px #CBCBCB solid;
+  border-top: 1px #CBCBCB solid;
+  overflow: hidden;
+  background: #F7F7F7;
+  position: relative;
+  font-size: 16px;
+  color: #999;
+}
+.lytc_canshu2_left {
+  float: left;
+  width:48%;
+}
+.lytc_canshu2_left .prebook,
+.lytc_canshu2_right .collected
+{
+  font-size: 14px;
+  padding: 8px 0px;
+}
+.lytc_canshu2_right .collected{
+  text-align: right;
+}
+
+.lytc_canshu2_right {
+  float: right;
+  width: 48%;
+}
+
+.lytc_more {
+  float: right;
+  background: #FA0;
+  border-radius: 6px;
+  width: 100%;
+}
+.lytc_more a {
+  color: #FFF;
+  height: 34px;
+  line-height: 34px;
+  padding: 0 20px;
+  text-align: center;
+}
+.lytc_canshu .lytc_t {
+  font-size: 22px;
+  line-height: 150%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.lytc_phone {
+  float: left;
+  background: #FA0;
+  border-radius: 5px;
+  width: 100%;
+}
+.lytc_phone .lytc_phone_container{
+  text-align: center;
+  color: #fff;
+}
+
+.lytc_phone a {
+  height: 34px;
+  line-height: 34px;
+  font-size:22px;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+}
+
+.lytc_canshu2_left .dialog {
+  background: #fff;
+  left: 50%;
+  margin: -200px 0 0 -150px;
+  position: fixed!important;
+  position: absolute;
+  top: 50%;
+  width: 300px;
+  z-index: 10000;
+  display: none;
+}
+
+@media screen and (max-width: 320px) {
+  
+}
+
+@media screen and (max-width: 380px) {
+  .lytc_canshu .lytc_t {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .lytc_canshu .lytc_t {
+    font-size: 20px;
+  }
+}

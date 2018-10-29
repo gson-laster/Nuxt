@@ -1,0 +1,99 @@
+.info_t {
+  margin: 0 auto;
+  padding: 10px;
+  min-height: 50px;
+  line-height: 150%;
+  border-bottom: 1px #DBDBDB solid;
+  overflow: hidden;
+  position: relative;
+  background: #FFFFFF;
+  font-family: "微软雅黑";
+}
+.product-warrp {
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+}
+.info_con {
+  background: #FFFFFF;
+  border-bottom: 1px #DBDBDB solid;
+  padding: 10px;
+  font-size: 14px;
+  box-sizing: border-box;
+  float: left;
+}
+.info_cont ul li.on {
+  color: #47B0B3;
+}
+.info_cont ul {
+  float: left;
+  width: 100%;
+}
+
+.info_cont ul li {
+  float: left;
+  width: 50%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.info_t h3 {
+  float: left;
+  margin-right: 60px;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.info_t div.info_sc {
+  position: absolute;
+  right: 0px;
+  border-left: 1px #D9D9D9 solid;
+  width: 60px;
+  font-size: 14px;
+  text-align: center;
+  color: #575757;
+  background: url(../../img/product/brandmk_05.png) center top no-repeat;
+  background-size: 25px;
+  padding-top: 25px;
+}
+
+.info_cont {
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  margin-top: 15px;
+  background: #FFFFFF;
+  border-top: 1px #DBDBDB solid;
+  border-bottom: 1px #DBDBDB solid;
+  font-family: "微软雅黑";
+}
+
+.info_more_t {
+  margin: 0 auto;
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  border-bottom: 1px #DBDBDB solid;
+  font-family: "微软雅黑";
+}
+
+.info_cont div.line {
+  position: absolute;
+  left: 50%;
+  width: 1px;
+  height: 40px;
+  border-left: 1px #DBDBDB dotted;
+}
+
+.info_more {
+  margin: 0 auto;
+  background: #FFFFFF;
+  border-top: 1px #DBDBDB solid;
+  padding: 0px;
+  font-size: 14px;
+  margin-top: 15px;
+  border-bottom: 1px #DBDBDB solid;
+  padding-bottom: 15px;
+}

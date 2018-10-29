@@ -1,0 +1,270 @@
+
+.recruit .container {
+  position: relative;
+}
+
+.recruit .recruit_hand_money {
+  position: absolute;
+  right: 0;
+  width: 200px;
+  height: 263px;
+  background: url(../../img/wusercenter/recruit_hand_money.png);
+}
+
+.recruit .first {
+  height: 193px;
+  width: 100%;
+  background: url('../../img/wusercenter/recruit_1_bg.png') no-repeat;
+  background-size: 100% auto;
+  background-position: center top;
+  overflow-x: hidden;
+}
+
+.recruit .first .first-recruit-title {
+  height: 43px;
+  background: url('../../img/wusercenter/recruit_title.png') no-repeat;
+  background-size: auto 100%;
+  margin-top: 74px;
+  margin-left: 24px;
+}
+
+.recruit .first .first-recruit-content {
+  font-size: 15px;
+  color: #fff;
+  margin-left: 24px;
+  margin-top: 8px;
+}
+
+.recruit .second {
+  height: 258px;
+  background: url('../../img/wusercenter/recruit_2_bg.png') no-repeat;
+  background-size: 100% auto;
+  background-position: center top;
+  position: relative;
+  overflow-x: hidden;
+  font-size: 16px;
+}
+
+.recruit .second p {
+  margin-left: 44px;
+  letter-spacing: 1px;
+  margin-top: 6px;
+}
+
+.recruit .second p>span {
+  font-size: 22px;
+  color: #996c33;
+  font-weight: bold;
+}
+
+.recruit .second .top {
+  position: relative;
+  margin-top: 47px;
+  width: 228px;
+}
+
+.recruit .second .top::after {
+  position: absolute;
+  top: -12px;
+  left: -30px;
+  content: '';
+  width: 26px;
+  height: 26px;
+  background: url('../../img/wusercenter/quotation_mark_left.png') no-repeat;
+  background-size: 100% auto;
+}
+
+.recruit .second .bottom {
+  position: relative;
+}
+
+.recruit .second .bottom::after {
+  position: absolute;
+  content: '';
+  width: 26px;
+  height: 26px;
+  background: url("../../img/wusercenter/quotation_mark_right.png") no-repeat;
+  background-size: 100% auto;
+  bottom: -30px;
+  right: 14px;
+}
+
+.recruit .third {
+  height: 556px;
+  background: url('../../img/wusercenter/recruit_3_bg.png') no-repeat;
+  background-size: 100% auto;
+  background-position: center top;
+  color: #fff;
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+.recruit .third .title {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.recruit .third .list {
+  overflow-x: hidden;
+}
+
+.recruit .third .list li {
+  margin-left: 73px;
+  margin-top: 26px;
+  position: relative;
+}
+
+.recruit .third .list li::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: -56px;
+  width: 43px;
+  height: 43px;
+  top: 50%;
+  transform: translate3d(0, -50%, 0);
+}
+
+.recruit .third .list li:NTH-OF-TYPE(1)::after {
+  background: url('../../img/wusercenter/recruit_icon_1.png') no-repeat;
+  background-size: 100%;
+}
+
+.recruit .third .list li:NTH-OF-TYPE(2)::after {
+  background: url('../../img/wusercenter/recruit_icon_2.png') no-repeat;
+  background-size: 100%;
+}
+
+.recruit .third .list li:NTH-OF-TYPE(3)::after {
+  background: url('../../img/wusercenter/recruit_icon_3.png') no-repeat;
+  background-size: 100%;
+}
+
+.recruit .third .list li:NTH-OF-TYPE(4)::after {
+  background: url('../../img/wusercenter/recruit_icon_4.png') no-repeat;
+  background-size: 100%;
+}
+
+.recruit .third .list li:NTH-OF-TYPE(5)::after {
+  background: url('../../img/wusercenter/recruit_icon_5.png') no-repeat;
+  background-size: 100%;
+}
+
+.recruit .fourth {
+  height: 260px;
+  background: url('../../img/wusercenter/recruit_4_bg.png') no-repeat;
+  background-size: 100% auto;
+}
+
+.recruit .fifth {
+  height: 563px;
+  background: url('../../img/wusercenter/recruit_5_bg.png') no-repeat;
+  background-size: 100% auto;
+  overflow-x: hidden;
+  margin-bottom:30px;
+}
+.recruit .fifth .title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  margin-top: 40px;
+}
+.recruit .fifth .list li {
+  margin-top: 40px;
+  margin-left: 48px;
+  color: #fff;
+  font-size: 16px;
+  position: relative;
+}
+
+.recruit .fifth .list li:after {
+  position: absolute;
+  content: '';
+  width: 14px;
+  height: 14px;
+  background: url('../../img/wusercenter/recruit_join_icon.png') no-repeat;
+  background-size: 100%;
+  left: -20px;
+  top: 4px;
+}
+
+.recruit .fifth .description {
+  color: #fff;
+  font-size: 18px;
+  width: 80% !important;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  margin: 10px auto 0 auto;
+  padding: 8px;
+  max-width: 640px;
+  width: 100%;
+}
+
+.recruit .bottom-nav {
+  background: #fff;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  color: #996c33;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 400;
+  max-width: 640px;
+  width: 100%;
+}
+
+.recruit .bottom-nav li {
+  width: 50%;
+  float: left;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.recruit .bottom-nav li:FIRST-OF-TYPE {
+  box-sizing: border-box;
+  border-right: 1px solid #ccc;
+}
+
+.recruit .bottom-nav li>a {
+  color: #996c33;
+}
+
+.recruit .recruit_hand_money {
+  position: absolute;
+  width: 200px;
+  height: 263px;
+  background: url('../../img/wusercenter/recruit_hand_money.png') no-repeat;
+  background-size: 100% auto;
+  right: 0;
+  top: 30px;
+  z-index: 300;
+}
+
+.recruit .welcome-to {
+  position: absolute;
+  right: 0;
+  width: 154px;
+  z-index: 300;
+  bottom: 232px;
+}
+@media screen and (max-width:320px){
+  .recruit .first,.second,.third,.fourth,.fifth{
+    background-size: auto 100%;
+  }
+  .recruit .fifth{
+    height:600px;
+    margin-bottom:50px;
+  }
+  .recruit .welcome-to{
+    width:120px;
+  }
+}
+@media screen and(min-width:414px){
+  .recruit .first,.second,.third,.fourth,.fifth{
+    background-size: 100% auto;
+  }
+}

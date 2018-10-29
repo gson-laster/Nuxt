@@ -1,0 +1,23 @@
+/*待写*/
+.imgtitle{
+  white-space: nowrap;
+  overflow: scroll;
+}
+.iList{
+  overflow-x: scroll;
+  white-space: nowrap;
+  height: 100px;
+  overflow-y: hidden;
+}
+.iList div { 
+  margin-left: 12px;
+  display: inline-block;
+}
+
+.iList img {
+  width: 100px;
+}
+.addimg .border{
+  border: 1px solid red;
+  box-sizing: border-box;
+}

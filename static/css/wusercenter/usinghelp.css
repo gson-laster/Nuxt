@@ -1,0 +1,97 @@
+.usinghelp .helptop img {
+  width: 55px;
+  height: 55px;
+}
+.usinghelp .helptop {
+  background: #fff;
+  /*padding: 6px;*/
+  position: relative;
+  min-height: 67px;
+  box-sizing: border-box;
+}
+.usinghelp .helptop p {
+  padding-left: 70px;
+  line-height: 66px;
+}
+.usinghelp .helptop span {
+  color: #88abda;
+}
+.usinghelp .loginOuts span {
+  color: #D84453 !important;
+  padding-left: 10px;
+}
+.usinghelp .loginOuts {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+}
+.usinghelp .loginOuts a {
+  display: inline-block;
+}
+.usinghelp .helpUserImg {
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+}
+.usinghelp li {
+  margin-left: 30px;
+  /*height: ;*/
+  position: relative;
+  padding: 12px;
+}
+.usinghelp .li {
+  padding: 12px;
+  padding-right: 30px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 5px #CCC;
+  position: relative;
+  background: #fff;
+  /*margin: 12px;*/
+}
+.usinghelp .li:after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg) translateY(-50%);
+  background: transparent;
+  border-top: 2px solid #EB7B0A;
+  border-right: 2px solid #EB7B0A;
+  position: absolute;
+  right: 14px;
+  top: 50%;
+}
+.usinghelp li:before {
+  content: '';
+  background-image: url('~static/img/wusercenter/icon_01.png');
+  background-size: auto 200%;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 0;
+  left: -25px;
+  position: absolute;
+  width: 30px;
+  height: 100%;
+}
+.usinghelp li:first-child:before {
+  background-image: url('~static/img/wusercenter/icon_01_1.png');
+}
+.usinghelp li:last-child:before {
+  background-image: url('~static/img/wusercenter/icon_01_2.png');
+}
+.usinghelp .title {
+  font-size: 16px;
+  /*height: 16px;*/
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.usinghelp .dreamKeyword {
+  font-size: 12px;
+  padding-top: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

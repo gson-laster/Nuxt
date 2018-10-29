@@ -1,0 +1,403 @@
+.colorSelect {}
+
+.colorSelect .item {
+  width: 50%;
+  flex: 1;
+  float: left;
+}
+
+.colorSelect .item .container {
+  width: 100%;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+.colorSelect .bottom {
+  height: 40px;
+  line-height: 40px;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  color: #fff;
+}
+
+.colorSelect .bottom a {
+  display: inline-block;
+  padding: 0px 20px;
+  height: 30px;
+  border-radius: 20px;
+  line-height: 30px;
+  background-color: #fff;
+}
+
+
+/* 红色 */
+
+.colorSelect .bottom.red {
+  color: #e0091b;
+}
+
+.colorSelect .bottom.red a {
+  border: 1px solid #e0091b;
+  color: #e0091b;
+}
+
+
+/* 蓝色 */
+
+.colorSelect .bottom.blue {
+  color: #088ecf;
+}
+
+.colorSelect .bottom.bottom.blue a {
+  border: 1px solid #088ecf;
+  color: #088ecf;
+}
+
+
+/* 紫色 */
+
+.colorSelect .bottom.purple {
+  color: #8254a3;
+}
+
+.colorSelect .bottom.purple a {
+  border: 1px solid #8254a3;
+  color: #8254a3
+}
+
+
+/* 黄 */
+
+.colorSelect .bottom.yellow {
+  color: #ff9304
+}
+
+.colorSelect .bottom.yellow a {
+  border: 1px solid #ff9304;
+  color: #ff9304;
+}
+
+
+/* 灰色 */
+
+.colorSelect .bottom.gray {
+  color: #636e8c
+}
+
+.colorSelect .bottom.gray a {
+  border: 1px solid #636e8c;
+  color: #636e8c;
+}
+
+
+/* 粉色 */
+
+.colorSelect .bottom.pink {
+  color: #e64e7f
+}
+
+.colorSelect .bottom.pink a {
+  border: 1px solid #e64e7f;
+  color: #e64e7f;
+}
+
+
+/* 绿色 */
+
+.colorSelect .bottom.green {
+  color: #3a9258;
+}
+
+.colorSelect .bottom.green a {
+  border: 1px solid #3a9258;
+  color: #3a9258;
+}
+
+
+/* 原木棕 */
+
+.colorSelect .bottom.brown {
+  color: #a64e35;
+}
+
+.colorSelect .bottom.brown a {
+  color: #a64e35;
+  background-color: #fff;
+  border: 1px solid #a64e35;
+}
+
+
+/* 激活效果 */
+
+.brown.active {
+  background-color: #a64e35;
+}
+
+.brown.active p {
+  color: #fff;
+}
+
+.brown.active a {
+  background-color: #fff;
+  color: #a64e35;
+}
+
+.blue.active {
+  background-color: #088ecf;
+  color: #fff;
+}
+
+.blue.active p {
+  color: #fff;
+}
+
+.purple.active {
+  background-color: #8254a3;
+  color: #fff;
+}
+
+.purple.active p {
+  color: #fff;
+}
+
+.green.active {
+  background-color: #3a9258;
+  color: #fff;
+}
+
+.green.active p {
+  color: #fff;
+}
+
+.yellow.active {
+  background-color: #ff9304;
+  color: #fff;
+}
+
+.yellow.active p {
+  color: #fff;
+}
+
+.red.active {
+  background-color: #e0091b;
+  color: #fff;
+}
+
+.red.active p {
+  color: #fff;
+}
+
+.gray.active {
+  background-color: #636e8c;
+  color: #fff;
+}
+
+.gray.active p {
+  color: #fff;
+}
+
+.pink.active {
+  background-color: #e64e7f;
+  color: #fff;
+}
+
+.pink.active p {
+  color: #fff;
+}
+
+
+/*旧模板部选择按钮样式 */
+
+.colorSelect .bottom.orange-one {
+  color: #f2842b;
+}
+
+.colorSelect .bottom.orange-one a {
+  color: #f2842b;
+  background-color: #fff;
+  border: 1px solid #f2842b;
+}
+
+.orange-one.active {
+  background-color: #f2842b;
+  color: #fff;
+}
+
+.orange-one.active p {
+  color: #fff;
+}
+
+.colorSelect .bottom.orange-two {
+  color: #f2842b;
+}
+
+.colorSelect .bottom.orange-two a {
+  color: #f2842b;
+  background-color: #fff;
+  border: 1px solid #f2842b;
+}
+
+.orange-two.active {
+  background-color: #f2842b;
+  color: #fff;
+}
+
+.orange-two.active p {
+  color: #fff;
+}
+
+.colorSelect .bottom.orange-orange {
+  color: #fdc959;
+}
+
+.colorSelect .bottom.orange-orange a {
+  color: #fdc959;
+  background-color: #fff;
+  border: 1px solid #fdc959;
+}
+
+.orange-orange.active {
+  background-color: #fdc959;
+  color: #fff;
+}
+
+.orange-orange.active p {
+  color: #fff;
+}
+
+.colorSelect .bottom.wood-black {
+  color: #606060;
+}
+
+.colorSelect .bottom.wood-black a {
+  color: #606060;
+  background-color: #fff;
+  border: 1px solid #606060;
+}
+
+.wood-black.active {
+  background-color: #606060;
+  color: #fff;
+}
+
+.wood-black.active p {
+  color: #fff;
+}
+
+.colorSelect .bottom.wood-brown {
+  color: #ad5e40;
+}
+
+.colorSelect .bottom.wood-brown a {
+  color: #ad5e40;
+  background-color: #fff;
+  border: 1px solid #ad5e40;
+}
+
+.wood-brown.active {
+  background-color: #ad5e40;
+  color: #fff;
+}
+
+.wood-brown.active p {
+  color: #fff;
+}
+
+.colorSelect .bottom.light-yellow {
+  color: #f8b938;
+}
+
+.colorSelect .bottom.light-yellow a {
+  color: #f8b938;
+  background-color: #fff;
+  border: 1px solid #f8b938;
+}
+
+.light-yellow.active {
+  background-color: #f8b938;
+  color: #fff;
+}
+
+.light-yellow.active p {
+  color: #fff;
+}
+
+.colorSelect .bottom.chocolate-brown {
+  color: #93411b;
+}
+
+.colorSelect .bottom.chocolate-brown a {
+  color: #93411b;
+  background-color: #fff;
+  border: 1px solid #93411b;
+}
+
+.chocolate-brown.active {
+  background-color: #93411b;
+  color: #fff;
+}
+
+.chocolate-brown.active p {
+  color: #fff;
+}
+
+.colorSelect .bottom.lake-blue {
+  color: #19558b;
+}
+
+.colorSelect .bottom.lake-blue a {
+  color: #19558b;
+  background-color: #fff;
+  border: 1px solid #19558b;
+}
+
+.lake-blue.active {
+  background-color: #19558b;
+  color: #fff;
+}
+
+.lake-blue.active p {
+  color: #fff;
+}
+
+.colorSelect .bottom.lake-white {
+  color: #19558b;
+}
+
+.colorSelect .bottom.lake-white a {
+  color: #19558b;
+  background-color: #fff;
+  border: 1px solid #19558b;
+}
+
+.lake-white.active {
+  background-color: #19558b;
+  color: #fff;
+}
+
+.lake-white.active p {
+  color: #fff;
+}
+
+.colorSelect .bottom.gradient-blue {
+  color: #4682c1;
+}
+
+.colorSelect .bottom.gradient-blue a {
+  color: #4682c1;
+  background-color: #fff;
+  border: 1px solid #4682c1;
+}
+
+.gradient-blue.active {
+  background-color: #4682c1;
+  color: #fff;
+}
+
+.gradient-blue.active p {
+  color: #fff;
+}
+/* 旧模板激活状态 */

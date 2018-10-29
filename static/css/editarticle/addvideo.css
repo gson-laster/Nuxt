@@ -1,0 +1,26 @@
+  .addVideo{
+    /*width: 300px;*/
+    margin: 0 auto;
+    padding-top: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .addVideo input{
+    width: 100%;
+    outline: none;
+    line-height: 36px;
+    border: 1px solid #FFAA00;
+    text-align: center;
+    border-radius: 3px;
+  }
+  .inbox{
+    margin: 0 20px;
+  }
+.suchAs{
+  color: #fff;
+  padding: 20px 20px;
+}
+.videowarn{
+  text-align: center;
+  color: #FF0000;
+  margin-top: 12px;
+}

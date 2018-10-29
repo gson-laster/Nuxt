@@ -1,0 +1,138 @@
+.contentList{
+  margin-top: 12px;
+  background-color: #FFFFFF;
+}
+.list{
+  margin: 0px 8px;
+  padding: 10px 0;
+  min-height: 50px;
+  position: relative;
+  min-height: 46px;
+}
+.list:not(:last-child){
+  border-bottom: 1px solid #EEEEEE;
+}
+.list p {
+  line-height: 22px;
+  color: #888888;
+  /*padding-top: 4px;*/
+  /*padding-right: 242px;*/
+}
+.list p:first-child{
+  font-size: 16px;
+  color: #333333;
+  /*white-space: nowrap;*/
+  /*overflow: hidden;*/
+  /*text-overflow: ellipsis;*/
+  /*display: ;*/
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  padding-bottom: 4px;
+}
+.list p:last-child {
+  color: #888888;
+  /*padding-top: 6px;*/
+}
+.release{
+  color: #FFAA00;
+  border: 1px solid #FFAA00;
+  position: absolute;
+  right: 0px;
+  /*top: 50%;*/
+  bottom: 12px;
+  /*transform: translateY(-50%);*/
+  text-align: center;
+  width: 50px;
+  height: 24px;
+  line-height: 24px;
+  border-radius: 30px;
+  font-size: 16px;
+}
+.noDate{
+  padding: 10px;
+  text-align: center;
+}
+.selectClassify{
+  position: fixed;
+  bottom: 0;
+  max-width: 640px;
+  width: 100%;
+  transition: all 100ms ease-out;
+  transform: translateY(100%);
+  background: #242424;
+}
+.trans{
+  transform: translateY(0) !important;
+}
+.box{
+  background: #F3F3F3;
+}
+.changeBg{
+  background: #FFAA00;
+  border: 1px solid #FFAA00 !important;
+}
+.changeBg1{
+  background: #FFAA00;
+  border: 1px solid #FFAA00 !important;
+}
+.classifyTitle{
+  color: #FFFFFF;
+}
+.selectClassify li{
+  float: left;
+  color: #FFFFFF;
+  width: 33.33333%;
+  text-align: center;
+}
+.selectClassify li div{
+  line-height: 36px;
+  margin-bottom: 8px;
+  border: 1px solid #FFFFFF;
+  /*margin-right: 6px;*/
+  box-sizing: border-box;
+  height: 36px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.classifyTitle{
+  padding: 25px;
+  padding-left: 12px;
+}
+.selectClassify li:nth-child(3n+1) div{
+  margin-left: 12px;
+  margin-right: 4px;
+}
+.selectClassify li:nth-child(3n+2) div{
+  margin-right: 8px;
+  margin-left: 8px;
+}
+.selectClassify li:nth-child(3n+3) div{
+  margin-right: 12px;
+  margin-left: 4px;
+}
+.manipulate li:last-child div{
+  color: #FFAA00;
+  border: 1px solid #FFAA00;
+  /*margin-right: 10px;*/
+}
+.manipulate{
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.manipulate li div {
+  border-radius: 4px;
+}
+/*.classifyList li:first-child div{
+  background: #FFAA00;
+  border: none;
+}*/
+.bj{
+  right: 60px !important;
+}
+.sc{
+  right: 120px !important;
+}

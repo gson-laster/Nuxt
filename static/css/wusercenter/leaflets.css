@@ -1,0 +1,36 @@
+.imgs img{
+  width: 100%;
+}
+.w-leaflets .listBox h2{
+  font-size: 20px;
+  color: #ED4E00;
+  font-weight: bolder;
+  position: relative;
+  top: 28px;
+  display: inline-block;
+}
+.w-leaflets .list{
+  margin-left: 60px;
+}
+.w-leaflets .title{
+  border-top: 1px #DADADA solid;
+  margin-left: 12px;
+}
+.w-leaflets .listBox li{
+  float: left;
+  padding-right: 20px;
+  font-size: 20px;
+  line-height: 34px;
+}
+.w-leaflets .new_leaflets_an a {
+  position: fixed;
+  bottom: 0;
+  float: left;
+  width: 100%;
+  background: #FD410F;
+  line-height: 60px;
+  font-size: 20px;
+  text-align: center;
+  color: #FFF;
+  max-width: 640px;
+}

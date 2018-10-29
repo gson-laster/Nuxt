@@ -1,0 +1,107 @@
+.new_vbzstitle {
+  margin: 20px auto 0;
+  padding: 0 20px 5px;
+  font-size: 16px;
+}
+.new_vbzsinput, .new_vbzstitle {
+    text-align: left;
+    overflow: hidden;
+    font-size: 16px;
+}
+.new_vbzsinput div.input input {
+    float: left;
+    width: 100%;
+    border: none;
+    padding: 0;
+    margin: 0;
+    line-height: 35px;
+    font-size: 16px;
+}
+.new_vbzsinput div.t {
+    margin: 0 auto;
+    width: 100%;
+    line-height: 30px;
+}
+.new_vbzsan .confirm {
+    color: #FFF;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    border: none;
+}
+.new_vbzsps {
+    margin: 15px auto 0;
+    padding: 0 20px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 16px;
+}
+.upage {
+    margin: 0 10px;
+    text-align: center;
+    padding: 10px 0;
+}
+.new_vbzsps i {
+    font-style: normal;
+    padding-right: 5px;
+    color: #D70009;
+}
+.new_vbzsinput div.input input {
+    float: left;
+    width: 100%;
+    border: none;
+    padding: 0;
+    margin: 0;
+    line-height: 35px;
+    font-size: 16px;
+}
+.new_vbzstitle i {
+    font-style: normal;
+    color: #FDA808;
+}
+.new_vbzsinput {
+    margin: 15px auto 0;
+    padding: 0 20px;
+}
+.recommend_list {
+  margin: 20px 10px 0;
+  overflow: hidden;
+}
+.recommend_list .t span {
+  font-size: 12px;
+  background: #FD6148;
+  color: #FFF;
+  margin-top: 10px;
+  line-height: 35px;
+  height: 35px;
+}
+.new_vbzsan {
+  margin: 20px 20px;
+  text-align: center;
+  border-radius: 4px;
+  background: #FDA808;
+}
+.new_vbzsinput div.input {
+  margin: 0 auto;
+  border: 1px solid #CCC;
+  overflow: hidden;
+  padding: 0 10px;
+  background: #FFF;
+  border-radius: 3px;
+}
+.recommend_list span{
+  display: inline-block;
+  text-align: center;
+}
+.recommend_list span:first-child{
+  width: 15%;
+}
+.recommend_list span:nth-child(2){
+  width: 30%;
+}
+.recommend_list span:last-child{
+  width: 55%;
+}
+.con{
+  padding: 8px 0;
+}

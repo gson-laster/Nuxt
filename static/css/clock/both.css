@@ -1,0 +1,126 @@
+.recordlist {
+  display: flex;
+}
+.recordlist:first-child {
+  padding-bottom: 15px;
+}
+.rankinglist {
+  position: relative;
+}
+.flex_1 {
+  flex: 1;
+}
+.flex2 {
+  flex: 0.1;
+}
+.flex-warrp:first-of-type {
+  height: auto;
+}
+.flex-warrp {
+  display: flex;
+  border-top: 1px solid #EEEEEE;
+  padding: 8px 0;
+  text-align: center;
+  height: 50px;
+}
+.flex-warrp div {
+  align-self: center;
+  text-align: center;
+}
+.f1 {
+  width: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.flex-warrp:nth-of-type(2) .f1 {
+  background: url('~static/img/clock/first.png') no-repeat center center;
+  background-size: 36px 36px;
+}
+.flex-warrp:nth-of-type(3) .f1 {
+  background: url('~static/img/clock/second.png') no-repeat center center;
+  background-size: 36px 36px;
+}
+.flex-warrp:nth-of-type(4) .f1 {
+  background: url('~static/img/clock/third.png') no-repeat center center;
+  background-size: 36px 36px;
+}
+.f2 {
+  width: 50px;
+}
+.f3 {
+  padding: 5px;
+  box-sizing: border-box;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left !important;
+}
+.f2 img,
+.f1 img {
+  width: 100%;
+}
+.f4 {
+  width: 70px;
+  color: #3A3A3A;
+}
+.f5 {
+  width: 50px;
+  text-align: center;
+  color: #888888;
+}
+.f5 .add-like {
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 20px;
+  background: url('~static/img/clock/good.png') no-repeat bottom center;
+  background-size: 24px 24px;
+}
+
+.ranktitle {
+  text-align: center;
+  color: #333333;
+  padding: 12px 0;
+}
+.ranktitle span {
+  color: #FFAA00;
+}
+.rankinglistbg {
+  background: #FFFFFF;
+}
+.paddnone {
+  padding: 0;
+  text-align: center;
+}
+.flex:first-child div {
+  color: #9B9B9B !important;
+  text-align: center;
+}
+.f1 span {
+  color: #393939;
+}
+.flex:last-child {
+  border-bottom: 1px solid #EEEEEE;
+}
+.add-like-animate {
+  position: absolute;
+  top: 50px;
+  right: 16px;
+  color: red;
+  transform: translateY(0);
+  display: none;
+}
+.animate-addlike {
+  animation: addLike 1s 1 ease-in-out;
+}
+@keyframes addLike {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-20px);
+    opacity: 0
+  }
+}

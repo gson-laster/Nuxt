@@ -1,0 +1,30 @@
+.btnbox span{
+  /*color: #04BE02;*/
+  /*border: 1px solid #04BE02;*/
+  padding: .6em 3em;
+  border-radius: 4px;
+}
+.btnbox {
+  display: table;
+  width: 100%;
+  margin-top: 40px;
+  color: #fff;
+}
+.btnbox div {
+  display: table-cell;
+  width: 50%;
+}
+.btnbox div:first-child{
+  text-align: right;
+  padding-right: 20px;
+}
+.btnbox div:first-child span{
+  border: 1px solid #fff;
+}
+.btnbox div:last-child{
+  text-align: left;
+  padding-left: 20px;
+}
+.btnbox div:last-child span{
+  background: #fa0;
+}

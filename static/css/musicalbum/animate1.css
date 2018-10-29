@@ -1,0 +1,206 @@
+/*顺时针旋转动画*/
+@-webkit-keyframes rotateing {
+    from {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes rotateing {
+    from {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+/*逆时针旋转动画*/
+@-webkit-keyframes rotateing_back {
+    from {
+        -webkit-transform: rotate(360deg);
+    }
+    to {
+        -webkit-transform: rotate(0deg);
+    }
+}
+@keyframes rotateing_back {
+    from {
+        -webkit-transform: rotate(360deg);
+    }
+    to {
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+
+@-webkit-keyframes fadein_left {
+    from {
+        opacity: 0;
+        -webkit-transform: translate(500px, 0px) rotate(0deg);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate(0px, 0px) rotate(360deg);
+    }
+}
+@keyframes fadein_left {
+    from {
+        opacity: 0;
+        -webkit-transform: translate(500px, 0px) rotate(0deg);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate(0px, 0px) rotate(360deg);
+    }
+}
+
+@-webkit-keyframes fadeout_left {
+    from {
+        opacity: 1;
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: translate(-500px, 0px) rotate(360deg);
+    }
+}
+@keyframes fadeout_left {
+    from {
+        opacity: 1;
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: translate(-500px, 0px) rotate(360deg);
+    }
+}
+
+@-webkit-keyframes fadeout_down {
+    from {
+        opacity: 1;
+        -webkit-transform: translate(0px, 0px) scale(1) rotate(0);
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: translate(0px, 500px) scale(0) rotate(360deg);
+    }
+}
+@keyframes fadeout_down {
+    from {
+        opacity: 1;
+        -webkit-transform: translate(0px, 0px) scale(1) rotate(0);
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: translate(0px, 500px) scale(0) rotate(360deg);
+    }
+}
+
+@-webkit-keyframes fadein_down {
+    from {
+        opacity: 0;
+        -webkit-transform: translate(0px, -500px) scale(0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate(0px, 0px) scale(1);
+    }
+}
+@keyframes fadein_down {
+    from {
+        opacity: 0;
+        -webkit-transform: translate(0px, -500px) scale(0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate(0px, 0px) scale(1);
+    }
+}
+
+@-webkit-keyframes fadein_up {
+    from {
+        opacity: 0;
+        -webkit-transform: translate(0px, 500px) scale(2);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate(0px, 0px) scale(1) ;
+    }
+}
+
+@keyframes fadein_up {
+    from {
+        opacity: 0;
+        -webkit-transform: translate(0px, 500px) scale(2);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate(0px, 0px) scale(1) ;
+    }
+}
+
+@-webkit-keyframes fadeout_up {
+    from {
+        opacity: 1;
+        -webkit-transform: translate(0px, 0px) scale(1) rotate(0);
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: translate(-500px, 0px) scale(0) rotate(360);
+    }
+}
+@keyframes fadeout_up {
+    from {
+        opacity: 1;
+        -webkit-transform: translate(0px, 0px) scale(1) rotate(0);
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: translate(-500px, 0px) scale(0) rotate(360);
+    }
+}
+
+@-webkit-keyframes fadeout_center {
+    from {
+        opacity: 1;
+        -webkit-transform: scale(1) rotate(0);
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: scale(.4) rotate(720);
+    }
+}
+@keyframes fadeout_center {
+    from {
+        opacity: 1;
+        -webkit-transform: scale(1) rotate(0);
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: scale(.4) rotate(720);
+    }
+}
+
+@-webkit-keyframes zhuan {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes zhuan {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}

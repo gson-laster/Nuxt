@@ -1,0 +1,292 @@
+.box.cardIndex {
+  position: relative;
+  max-width: 640px;
+  overflow-x: hidden;
+}
+.cardIndex .newcard-userInfo {
+  background-color: #fff;
+  padding: 16px 10px;
+  line-height: 24px;
+  position: relative;
+}
+.cardIndex .music-btn {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  font-size: 32px;
+  z-index: 1000;
+  color: #fff;
+}
+.cardIndex .newcard-userInfo .user-avatar {
+  width: 80px;
+  border-radius: 50%;
+  height: 80px;
+  overflow: hidden;
+  float: left;
+  position: relative;
+}
+.cardIndex .newcard-userInfo .apply-card {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  background-color: #ec6941;
+  border-radius: 4px;
+  color: #fff;
+  margin-top: 10px;
+  overflow: hidden;
+  padding: 0 2px;
+}
+.cardIndex .newcard-userInfo .apply-card i {
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 1px;
+  transform: translate3d(0, 2px, 0);
+}
+.cardIndex .newcard-userInfo .user-avatar-container {
+  float: left;
+  padding: 4px;
+  border: 1px solid #ededed;
+  border-radius: 50%;
+  position: relative;
+}
+.cardIndex .newcard-userInfo .user-avatar-container .qrcode {
+  position: absolute;
+  right: 6px;
+  bottom: 4px;
+  font-size: 16px;
+}
+
+
+.cardIndex .newcard-userInfo .user-avatar-container .user-avatar img {
+  width: 100%;
+  height: 100%;
+}
+
+.cardIndex .newcard-userInfo .user-desc {
+  margin-top: 24px;
+  /* padding-left: 10px; */
+  min-height: 52px;
+  margin-left: 108px;
+}
+.cardIndex .newcard-userInfo .userLink {
+  position: relative;
+  margin: 23px 8px 0;
+}
+.cardIndex .newcard-userInfo .userLink .left {
+  width: 30px;
+  height: 30px;
+  color: #ccc;
+  position: absolute;
+  font-size: 36px;
+  transform: translateY(-50%);
+  top: 28%;
+  left: -10px;
+}
+.cardIndex .newcard-userInfo .userLink .right {
+  width: 30px;
+  height: 30px;
+  color: #ccc;
+  position: absolute;
+  font-size: 36px;
+  transform: translateY(-50%);
+  top: 50%;
+  right: -10px;
+}
+.cardIndex .newcard-userInfo .left {
+  position: absolute;
+  font-size: 30px;
+  left: 0px;
+  color: #cdcdcd;
+  height: 76px;
+  background-color: #fff;
+  line-height: 76px;
+  text-align: left;
+  bottom: 20px;
+}
+.cardIndex .newcard-userInfo .right {
+  position: absolute;
+  font-size: 30px;
+  right: 0px;
+  color: #cdcdcd;
+  height: 76px;
+  background-color: #fff;
+  line-height: 76px;
+  text-align: left;
+  bottom: 20px;
+}
+
+
+.cardIndex .user-desc .title {
+  font-weight: normal;
+  text-align: left;
+  font-size: 20px;
+  background-color: #fff;
+}
+
+.cardIndex .user-desc .text {
+  color: #a9a9a9;
+  font-size: 14px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  margin-top: 4px;
+}
+.cardIndex .user-desc .collect {
+  width: 50px;
+  height: 24px;
+  line-height: 24px;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #ec6941;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  text-align: right;
+  padding-right: 6px;
+  font-size: 14px;
+}
+.cardIndex .user-desc .icon-like::before {
+  text-align: left;
+  font-size: 16px;
+  margin-right: 2px;
+}
+
+.cardIndex .userLink {
+  margin: 0 auto 0 auto;
+  overflow-x: hidden;
+}
+
+.cardIndex .userLink .linkContainer {
+  margin: 0 auto;
+  white-space: nowrap;
+  min-height: 50px;
+}
+.cardIndex .userLink .linkContainer p {
+  text-align: center;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.cardIndex .userLink .linkContainer.transition {
+  transition: all ease-in-out 0.3s;
+}
+
+.cardIndex .userLink .linkContainer li {
+  display: inline-block;
+}
+
+.cardIndex .userLink .linkContainer .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  position: relative;
+  color: #fff;
+  margin: auto;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.cardIndex .modify-detail {
+  position: absolute;
+  right: -1px;
+  top: 20px;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  z-index: 100;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+}
+
+.cardIndex .modify-detail .arrow {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.cardIndex .modify-detail .text {
+  text-align: center;
+  position: relative;
+  bottom: 0;
+}
+
+.cardIndex .select-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  width: 100px;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  z-index: 300;
+  transition: all ease-in-out 0.5s;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+}
+
+.cardIndex .select-detail .left {
+  width: 40px;
+  box-sizing: border-box;
+  border-right: 1px solid #fff;
+  height: 120px;
+}
+
+.cardIndex .select-detail .right {
+  width: 80px;
+  box-sizing: border-box;
+}
+.cardIndex .select-detail .right ul {
+  width: 70px;
+}
+
+.cardIndex .select-detail .right a:last-child li {
+  border: none;
+}
+
+.cardIndex .select-detail .item {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid;
+  text-align: right;
+  padding-right: 8px;
+  color: #fff;
+}
+.cardIndex .select-detail .left {
+  font-size: 24px;
+  line-height: 120px;
+  text-align: center;
+  color: #fff;
+}
+.cardIndex .user-detail {
+  margin-top: 10px;
+  background-color: #fff;
+}
+.cardIndex .user-detail .item {
+  border-bottom: 1px solid #eee;
+  line-height: 28px;
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 10px 0px;
+  min-height: 20px;
+  margin-right: 10px;
+}
+.cardIndex .user-detail .item p {
+  margin-left: 34px;
+}
+
+.cardIndex .user-detail .item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}

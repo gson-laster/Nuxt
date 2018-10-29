@@ -1,0 +1,122 @@
+.new_navjg{
+  border-top: 1px #D9D9D9 solid;
+  border-bottom: 1px #D9D9D9 solid;
+  background: #F3F3F3;
+  overflow: hidden;
+  height: 10px;
+}
+.new_navjg, .new_shopuser{
+  width: 100%;
+  margin: 0 auto;
+}
+.new_shopordermk1 {
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+  border-top: 1px #CCC solid;
+  background: #FFF
+}
+.new_shopordermk1 ul {
+  float: left;
+  width: 100%
+}
+.new_shopordermk1 ul li a {
+  width: 100%;
+  float: left;
+  margin-left: 1px;
+  padding: 10px 0;
+  text-align: center;
+  font-style: normal;
+  font-size: 16px;
+  border-bottom: 4px #FFF solid
+}
+.new_shopordermk1 ul li{
+  border-right: 1px solid #666;
+  box-sizing: border-box;
+}
+.new_shopordermk1 ul li:first-child {
+  background: 0 0;
+  width: 33.4%
+}
+
+.new_shopordermk1 ul li:first-child a {
+  margin-left: 0
+}
+.new_shopordermk1 {
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+  border-top: 1px #CCC solid;
+  background: #FFF
+}
+.new_shopordermk1 ul {
+  float: left;
+  width: 100%
+}
+.new_shopordermk1 ul li {
+  float: left;
+  width: 33.3%;
+}
+.new_shoporderlist {
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+  background: #FFF
+}
+.new_shoporderlist_t{
+  float: left;
+  width: 100%;
+  border-bottom: 1px #CCC solid;
+  font-size: 16px;
+  line-height: 40px;
+}
+.new_shoporderlist_t span{
+  padding-left:10px; 
+}
+.new_shoporderlist_view{
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px #CCC solid;
+}
+.new_shoporderlist_view ul{
+  margin: 0 10px;
+  padding: 10px 0;
+  overflow: hidden;
+}
+.new_shoporderlist_view ul li{
+  float: left;
+  width: 100%;
+  font-size: 14px;
+  line-height: 150%;
+}
+.new_shoporderlist_con{
+  float: left;
+  width: 100%;
+  overflow: hidden;
+}
+.new_shoporderqq, .nocon{
+  width: 100%;
+  background: #FFF;
+  color: #FFAA01;
+  font-size: 16px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+}
+.new_shoporderqq{
+  padding: 10px 0;
+}
+.new_shoporderqq div{
+  margin: 0 auto;
+  background: #FFAA01;
+  width: 100px;
+  overflow: hidden;
+  line-height: 30px;
+}
+.new_shoporderqq div a{
+  color: #FFF;
+  float: left;
+  width: 100%;
+  text-align: center;
+}

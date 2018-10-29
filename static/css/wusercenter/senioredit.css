@@ -1,0 +1,96 @@
+.neweditbg{
+  margin: 0 auto;
+  background: #F7F7F7;
+}
+.newedit_form ul li h3, .newedit_form ul li span input{
+  font-size: 16px;
+  float: left;
+  font-family: "΢���ź�";
+  line-height: 45px;
+}
+.newedit_form ul li i{
+  float: left;
+  color: #999;
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 12px;
+  padding-left: 10px;
+}
+.newedit_form, .newedit_form ul{
+  float: left;
+  width: 100%;
+}
+.newedit_form ul li.inputedit input{
+  width: 100%;
+  text-align: left;
+  line-height: 45px;
+  background: 0 0;
+  padding: 0;
+  margin: 0;
+  text-indent: 10px;
+}
+.newedit_form ul li{
+  float: left;
+  width: 100%;
+  background: #FFF;
+}
+.newedit_form ul li, .newedit_upimg_sm{
+  position: relative;
+  border-bottom: 1px #CCC solid;
+}
+.newedit_form ul li.nonr{
+  background: 0 0;
+  min-height: 15px;
+}
+.newedit_form ul li h3.w2{
+  float: left;
+  width: 100px;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 45px;
+  color: #FDAB01;
+}
+.newedit_sm{
+  float: left;
+  width: 100%;
+  margin-bottom:120px;
+}
+.newedit_sm div{
+  margin: 0 10px;
+  font-size: 14px;
+  color: #888;
+  line-height: 200%;
+}
+.newedit_sm div img{
+  width: 45%;
+}
+.newedit_sm div i{
+  color: #556fb5;
+  font-style: normal;
+}
+.newedit_form_an{
+  float: left;
+  width: 100%;
+  padding-bottom: 80px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  background-color: #f3f3f3;
+  margin: 0 auto;
+}
+.newedit_form_an input{
+  margin: 20px auto 0;
+  border-radius: 10px;
+  border: none;
+  min-width: 120px;
+  padding: 0 20px;
+}
+.newedit_form_an a, .newedit_form_an input{
+  background: #FDAB01;
+  line-height: 38px;
+  font-size: 16px;
+  color: #FFF;
+  text-align: center;
+  margin: 0 12px;
+}

@@ -1,0 +1,109 @@
+.buycode-container .header{
+  width:100%;
+  height:150px;
+  background-size:100% 150px;
+  background-repeat: no-repeat;
+}
+.buycode-container .header.buy-code-bg{
+  width:100%;
+  height:150px;
+  background: url('../../img/wusercenter/buy_code_bg.png');
+  background-size:100% 150px;
+  background-repeat: no-repeat;
+}
+
+.buycode-container .content .text-hint{
+  font-size: 15px;
+  color:#000;
+  text-align: center;
+  height:30px;
+  line-height: 30px;
+  margin-top: 40px;
+}
+.buycode-container .content{
+  width:90%;
+  text-align: center;
+  font-size: 15px;
+  margin:0 auto;
+}
+.buycode-container .content .list{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.buycode-container .content .list .li{
+  width:100%;
+  background-color: #f3f3f3;
+  height:50px;
+  line-height: 50px;
+  margin-top:30px;
+  border:1px solid #ccc;
+  position:relative;
+}
+.buycode-container .list .li.active{
+  background:#ffe7b6;
+  border:1px solid  #ffaa00;
+  color:#ffaa00;
+}
+
+
+.buycode-container .list .li  span {
+  display:block;
+  width:52px;
+  height:100%;
+  position: absolute;
+  right:0;
+  top:0;
+  background-position:center; 
+  font-size:30px;
+}
+.buycode-container .list .confirmBtn{
+  display:block;
+  width:90%;
+  margin:40px auto 40px auto;
+  height:50px;
+  line-height: 50px;
+  background-color:#ffaa00;
+  border-radius:6px;
+  color:#fff;
+}
+.buycode-container .shadow{
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.4);
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:100;
+}
+.buycode-container .recruit-layer {
+  font-size: 14px;
+  position: fixed;
+  width: 278px;
+  height: 140px;
+  background-color: #fff;
+  z-index: 400;
+  bottom: 100px;
+  left: 50%;
+  transform: translate3d(-50%, -90%, 0);
+}
+.buycode-container .recruit-layer .header {
+  height: 50px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  line-height: 50px;
+  position: relative;
+}
+.buycode-container .recruit-layer .bottom {
+  height: 89px;
+  line-height: 89px;
+  color: #ffaa00;
+  text-align: center;
+}
+.buycode-container .recruit-layer .header .close-btn {
+  position: absolute;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  right: 20px;
+  color: #ff0000;
+  line-height: 24px;
+}

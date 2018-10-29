@@ -1,0 +1,23 @@
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+log
+logs
+pids
+yarn-error.log
+# Nuxt build
+.nuxt
+.svn
+.idea
+# Nuxt generate
+dist
+
+# Bulid
+build
+
+#wx
+./wx
+#back
+./backdata

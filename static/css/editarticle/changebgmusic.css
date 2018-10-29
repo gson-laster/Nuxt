@@ -1,0 +1,135 @@
+.changeBgmusic {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background: #dedede;
+  max-width: 640px;
+  animation: musicshow 300ms forwards -.2s;
+}
+@-webkit-keyframes musicshow {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.inpBox {
+  margin-left: 40px;
+  margin-right: 20px;
+  padding-top: 6px;
+}
+.inpBox .musicinp {
+  width: 100%;
+  line-height: 32px;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #a7a5a5;
+  padding-left: 12px;
+}
+.showkeyword {
+  padding: 12px;
+}
+.musicList {
+  overflow-y: scroll;
+  height: calc(100% - 12px);
+}
+.musicItem:first-child {
+  border-top: none
+}
+.musicList::-webkit-scrollbar {
+  width: 4px
+}
+.musicList::-webkit-scrollbar-thumb {
+  background-color: #f60
+}
+.musicList::-webkit-scrollbar-corner {
+  width: 0;
+}
+.musicItem {
+  padding: 8px 12px;
+  border-top: 1px solid #fefefe;
+  box-sizing: border-box;
+  position: relative;
+}
+.musicItem p {
+  font-size: 16px;
+}
+.musicItem p:last-child {
+  color: #999;
+  font-size: 14px;
+}
+.musicSelected {
+  color: #fff;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+.back {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+.back i {
+  font-size: 20px;
+  color: #fff;
+}
+.mslide_box {
+  white-space: nowrap;
+  padding: 4px 0;
+  border-top: 1px solid #F0F0F0;
+  border-bottom: 1px solid #F0F0F0;
+  color: white;
+  overflow-x: scroll;
+}
+.mslide_box::-webkit-scrollbar {
+  height: 0px
+}
+.mslide_box::-webkit-scrollbar-corner {
+  width: 0;
+}
+.mslide_contain {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+}
+.activeClo {
+  color: #A0CF0F;
+}
+.borderColor {
+  border: 4px solid #fa0;
+  box-sizing: border-box;
+}
+.changeBgmusic .musicbtn button {
+  border: none;
+  outline: none;
+  padding: 0.8em 2em;
+  background: #fa0;
+  border-radius: 4px;
+  color: #fff;
+  width: 40%;
+}
+.changeBgmusic .musicbtn button:first-child {
+  background: #262626;
+  color: #fff;
+  margin-right: 20px;
+}
+.changeBgmusic .musicbtn {
+  text-align: center;
+  padding-top: 22px;
+  box-sizing: border-box;
+}
+.changeBgmusic .fixed {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+}
+.changeBgmusic .musicHeight{
+  height: calc(100vh - 80px);
+}

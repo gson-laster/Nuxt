@@ -1,0 +1,18 @@
+.imgbox{
+  position: relative;
+  overflow: hidden;
+}
+.wimg img{
+  width: 100%;
+}
+.title{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  z-index: 999;
+  color: #975D49;
+  text-shadow: rgba(0, 0, 0, 0.2) 5px 6px 4px;
+  font-weight: 700;
+  font-size: 32px;
+}

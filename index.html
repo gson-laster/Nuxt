@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <script type="text/javascript">
+    // var location = location || window.location
+    /**
+     * 解析url
+     * @param  {[string]} url [url]
+     * @return {[object]}     [url object]
+     */
+    function parse(url)
+    {
+      let urlObj = {};
+      let queryString = '',
+        queryStr = [],
+        queryStr2 = [],
+        i;
+
+      queryString = url.split('?');
+      if (url.indexOf('?') != -1)
+      {
+        urlObj.host = queryString[0];
+
+      }
+      queryStr = queryString[1].split('&');
+
+      for (i = 0; i < queryStr.length; i++)
+      {
+        queryStr2 = queryStr[i].split('=');
+        urlObj[queryStr2[0]] = queryStr2[1];
+      }
+
+      return urlObj;
+    }
+    /**
+     * object to queryString
+     * @param  {[object]} obj [需要转换过的对象]
+     * @return {[string]}     [querystring]
+     */
+    function toUrl(obj)
+    {
+      let queryStr = '',
+        k;
+
+      if (typeof obj !== 'object') return queryStr;
+
+      for (k in obj)
+      {
+        queryStr += k + '=' + obj[k] + '&';
+      }
+
+      return queryStr.substr(0, queryStr.length - 1);
+    }
+    var pathToNew = {
+      "index2": "",
+      "index": "",
+      "card": "newcard",
+      "brand_news": "newslist",
+      'news': 'newslist',
+      "brand_newsview": "article",
+      "view": "article",
+      "index_new": "wechat",
+      "product": "product",
+      "product_list": "product/productList",
+      "product_view": "product/productDetail",
+      "lytc": "travel",
+      "lytc_view": "travel/traveldetail",
+      "lytc-canvas": "travel/travelCanvas",
+      "help": "wusercenter/usinghelp",
+      "help_view": "wusercenter/helpview",
+      "user_leaflets": "wusercenter/leaflets",
+      "editindex": "wusercenter/editarticle/articlesquire",
+      "editusers": "wusercenter/editarticle/articledetails",
+      "user_zxkf": "wusercenter/inlineservice",
+      "login": "login",
+      "register": "register"
+    }
+    var queryObj = parse(location.search)
+    var pathname = queryObj.s.replace('/', '')
+    var pathKey = pathname.split('.')[0]
+    console.log(pathToNew);
+    console.log(pathKey);
+    console.log(pathToNew[pathKey]);
+    console.log(queryObj);
+    // if (queryObj.hasOwnProperty('flag'))
+    // {
+    //   //queryObj.dreamTitle = queryObj.flag
+    //   queryObj.flag
+    // }
+    if (pathKey == 'product_view')
+    {
+      queryObj.product_id = queryObj.id
+      delete queryObj.id
+    }
+    delete queryObj.s
+    delete queryObj.host
+    let queryStr = toUrl(queryObj)
+    window.location.href = "http://wap.wvmp360.com/" + pathToNew[pathKey] + '?' + queryStr
+    console.log(window.location);
+  </script>
+</body>
+
+</html>

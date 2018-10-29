@@ -1,0 +1,57 @@
+.newmk_top{
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+.newmk_top{
+  background: #DADBDD;
+}
+.n_search_form{
+  padding: 5px 10px;
+  background: #FFF;
+  overflow: hidden;
+  max-width: 640px;
+}
+.n_search_form .s-btn{
+  float: right;
+  width: 47px;
+  margin-right: 10px;
+  margin-top: 6px;
+  text-align: left;
+}
+.n_search_form .s-val{
+  margin-right: 57px;
+}
+.n_search_form .s-btn button{
+  float: right;
+  height: 30px;
+  padding: 0;
+  background: 0 0;
+  border: none;
+  font-size: 14px;
+}
+.n_search_form .s-val input{
+  float: right;
+  width: 84%;
+  height: 10px;
+  padding: 10px 0;
+  border: none;
+  background: url(~static/img/common/new_icon_vb2.png) no-repeat;
+  background-size: 20px auto;
+  background-position: left center;
+  text-indent: 2em;
+  background-color: #f5f5f5;
+  border-radius: 6px;
+  margin-top: 6px;
+}
+.n_search_form .avatar{
+  position: absolute;
+  left: 12px;
+  top: 5px;
+  width: 40px;
+  border-radius: 6px;
+  height: 40px;
+}

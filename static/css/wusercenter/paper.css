@@ -1,0 +1,123 @@
+@import '~static/css/wusercenter/img.css';
+.paper img{
+  width: 100%;
+}
+.paperList{
+  /*float: left;*/
+ display: table-cell;
+ /*width: 100%;*/
+}
+.paper{
+  /*width: 100%;*/
+  /*margin: 0 54px;*/
+  display: table;
+  transition: all 400ms ease-out;
+}
+.pabox{
+  /*margin: 0 auto;*/
+  
+  overflow: hidden;
+}
+.total{
+  padding: 12px;
+  background-image: url(../../img/wusercenter/phoneBg.png);
+  background-size: 100% 100%;
+  padding-bottom: 30px;
+  display: inline-block;
+  
+}
+.paperBox{
+  position: relative;
+  /*margin-top: 20px;*/
+ text-align: center;
+ z-index: 2;
+background: transparent;
+}
+.paperboxs{
+  padding-top: 6px;
+}
+.paperBox .btn{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.btnl{
+  left: 4px;
+}
+.btnr{
+  right: 4px;  
+}
+.bottom{
+  /*display: table;*/
+  white-space: nowrap;
+  /*transition: all 100ms ease-out;*/
+  /*transition-duration: 30ms;*/
+}
+.btm{
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  max-width: 640px;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 4;
+}
+.bottomlist{
+  /*display: table-cell;*/
+ display: inline-block;
+}
+.bottomlist img{
+  width: 100%;
+  transform: translateY(12px);
+  transition: all 50ms ease-out; 
+}
+/*.part{
+  display: table-cell;
+}*/
+.tansition{
+  transition: all 100ms ease-out 10ms;
+}
+.creat {
+      /*position: fixed;*/
+    /*left: 210px;
+    top: 664px;*/
+    width: 90%;
+    max-width: 220px;
+    height: 40px;
+    font-size: 16px;
+    color: #FFF;
+    line-height: 40px;
+    background: #99C0BD;
+    border-radius: 30px;
+    text-align: center;
+    /*z-index: 4;*/
+    margin: 8px auto 0;
+}
+.bgimg{
+  position: fixed;
+  top: 0;
+  max-width: 640px;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  margin: 0 auto;
+}
+.bgimg img{
+  width: 100%;
+  filter: blur(8px);
+}
+.stemp{
+  position: absolute;
+  z-index: 10;
+  /*margin: 0 auto;*/
+ /*width: 100%;*/
+ /*text-align: center;*/
+  left: 50%;
+  transform: translateX(-50%);
+}
+.showdate{
+  top: 86px;
+}
+.time{
+  top: 40px;
+}

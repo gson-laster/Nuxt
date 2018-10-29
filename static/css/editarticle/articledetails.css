@@ -1,0 +1,224 @@
+.articledetail {
+  background: #fff;
+}
+.title {
+  border-bottom: 1px dashed #cccccc;
+  padding: 12px 20px;
+  position: relative;
+}
+.title h1 {
+  color: #1A1A1A;
+  padding-right: 74px;
+}
+.title span {
+  padding-left: 8px;
+  color: #6A83A7;
+}
+.title p {
+  color: #9A9A9A;
+}
+.toMe {
+  position: absolute;
+  right: 10px;
+  background: #FFAA01;
+  color: #fff;
+  padding: 0.5em 1em;
+  border-radius: 33px;
+  bottom: 10px;
+}
+.content {
+  padding: 20px 12px;
+  border-bottom: 1px solid #E1E1E1;
+}
+.dashang {
+  padding-top: 12px;
+}
+.dashang i {
+  color: #4D6D9F;
+  font-size: 18px;
+  padding-right: 8px;
+}
+.dashang span {
+  font-size: 16px;
+  color: #959595;
+  padding-left: 2px;
+}
+.dashangs {
+  margin-top: 40px;
+  text-align: center;
+}
+.dashangs p {
+  padding-top: 4px;
+}
+.shang {
+  color: #fff;
+  background: #FFAA01;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto;
+  line-height: 80px;
+  font-size: 24px;
+}
+.authorImg {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.authorImg img {
+  width: 100%;
+}
+.authorInfo {
+  position: relative;
+  border: 1px solid #E7E7E7;
+  min-height: 100px;
+  display: flex;
+  margin: 40px 12px;
+  border-radius: 5px;
+}
+.authorName,
+.authorSign {
+  margin-left: 80px;
+  line-height: 24px;
+}
+.alignSelf {
+  align-self: center;
+}
+.articledetail .authorSign {
+  color: #969696;
+  margin-top: 8px;
+}
+.articledetail .followMe {
+  position: absolute;
+  right: 12px;
+  top: 6px;
+  align-self: center;
+  color: #FFAE0D;
+  border: 1px solid #FFAE0D;
+  padding: 0.3em 1em;
+  border-radius: 30px;
+}
+.articledetail .shangBox {
+  padding: 0 12px;
+  background: #fff;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  box-sizing: border-box;
+  animation: ani 150ms forwards -0.02s;
+}
+@-webkit-keyframes ani {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.articledetail .toWho li {
+  float: left;
+  width: 50%;
+  padding: 12px 0;
+}
+.articledetail .toWho li:last-child {
+  text-align: right;
+}
+.articledetail .bgcolor {
+  background: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  max-width: 640px;
+}
+.articledetail .moneySlider li {
+  float: left;
+  width: 33.3333%;
+  text-align: center;
+}
+.articledetail .moneySlider li:nth-child(1n) span {
+  margin-right: 20px;
+}
+.articledetail .moneySlider li:nth-child(2n) span {
+  margin: 0 10px;
+}
+.articledetail .moneySlider li:nth-child(3n) span {
+  margin-left: 20px;
+  margin-right: 0;
+}
+.articledetail .moneySlider span {
+  display: block;
+  border: 1px solid #DEDEDE;
+  color: #5D5D5D;
+  padding: 0.6em 1.2em;
+  border-radius: 5px;
+}
+.articledetail .active {
+  background: #FEAA01;
+  color: #fff !important;
+}
+.articledetail .subsss {
+  background: #FFAA01;
+  color: #fff;
+  text-align: center;
+  padding: 0.6em 0;
+  font-size: 16px;
+  margin: 20px 0;
+  border-radius: 40px;
+}
+.articledetail .closeses {
+  text-align: right;
+  padding-top: 12px;
+}
+.articledetail .closeses i {
+  font-size: 20px;
+}
+.authorName h1{
+  padding-right: 72px;
+}
+.articledetail embed{
+  width: 100%;
+}
+.articledetail img {
+  margin-bottom: 8px;
+}
+.articledetail .goToEdit{
+      display: block;
+    height: 30px;
+    width: 210px;
+    background: #ffaa00;
+    margin: 0 auto;
+    border-radius: 6px;
+    color: #ffffff;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+}
+.articledetail .select-container {
+    width: 100%;
+    position: fixed;
+    height: 40px;
+    bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.articledetail .select-container .go-login, .select-container .go-register {
+    width: 100px;
+    text-align: center;
+    line-height: 40px;
+    height: 100%;
+    background-color: #ed6942;
+    color: #fff;
+}
+.articledetail .select-wrapper {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}

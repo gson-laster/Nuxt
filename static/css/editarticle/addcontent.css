@@ -1,0 +1,52 @@
+.addContentHeader {
+    font-size: 14px;
+    width: 50%;
+    margin: 20px auto 0;
+    text-align: center;
+}
+.addContentHeader .addIcon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #cdcdcd;
+    border-radius: 50%;
+    line-height: 20px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    font-style: normal;
+}
+.addContentBottom {
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px auto;
+    text-align: center;
+    border: 1px solid #ccc;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    position: relative;
+}
+.addContentBottom::before {
+  content: '';
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: -14px;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  left: 50%;
+  transform: rotate(-45deg) translateX(-50%);
+}
+.fugai{
+  background: #F3F3F3;
+  height: 1px;
+  position: absolute;
+  width: 20px;
+  top: -1px;
+  left: 92px;
+  /*transform: translateX(-50%);*/
+}

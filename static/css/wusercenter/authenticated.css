@@ -1,0 +1,194 @@
+.authenticated .header .date-wrapper {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    line-height: 50px;
+    width: 250px;
+    text-align: center;
+    color: #888;
+    font-size: 15px;
+}
+
+.authenticated .icon-rili {
+    font-size: 20px;
+    margin-right: 4px;
+}
+
+.authenticated .icon-y {
+    color: #ffaa00;
+}
+
+.authenticated .header .selectTime {
+    position: absolute;
+    right: 13px;
+    top: 50%;
+    transform: translate3d(0, -50%, 0);
+    color: #ffaa00;
+    font-size: 14px;
+}
+
+.authenticated.container .header {
+    height: 50px;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    max-width: 640px;
+    top: 0;
+    z-index: 100
+}
+
+.authenticated .content {
+    padding-top: 60px;
+}
+
+.authenticated .content .top p:FIRST-OF-TYPE {
+    float: left;
+}
+
+.authenticated .content .top p:LAST-OF-TYPE {
+    float: right;
+    margin-right: 20px;
+    position: relative;
+}
+
+.authenticated .content .top p.selected {
+    color: #ffaa00;
+}
+
+.authenticated .content .top p:NTH-OF-TYPE(2) {
+    float: right;
+}
+
+.authenticated .top i {
+    font-size: 22px;
+}
+
+.authenticated.container .layer-date {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 100;
+}
+
+.authenticated .layer-date .left,
+.layer-date .right {
+    width: 50%;
+    float: left;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 15px;
+}
+
+.authenticated .date-content .top {
+    background: #f3f3f3;
+    height: 132px;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.authenticated .date-container .month {
+    float: left;
+    margin-left: 8px;
+}
+
+.authenticated .date-container {
+    margin-top: 10px;
+}
+
+.authenticated .date-content .top select {
+    width: 56px;
+    background: #f3f3f3;
+    border: 1px solid #ccc;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 6px;
+    margin-top: 4px;
+}
+
+.authenticated .date-content .confirm-btn {
+    width: 100%;
+    height: 36px;
+    background: #ffaa00;
+    text-align: center;
+    font-size: 16px;
+    line-height: 36px;
+    color: #fff;
+}
+
+.authenticated .layer-date .date-content .top .left {
+    border-right: 1px solid #ccc;
+}
+
+.authenticated .content .wrapper .list {
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.authenticated .content .wrapper li {
+    border-bottom: 1px solid #ccc;
+    height: 32px;
+    line-height: 32px;
+}
+
+.authenticated .wrapper .list .left {
+    background-color: #bbbbbb;
+    color: #fff;
+    width: 22%;
+    float: left;
+    text-align: center;
+}
+
+.authenticated .wrapper .list .right {
+    float: right;
+    width: 78%;
+    color: #666666;
+    padding-left: 4px;
+    box-sizing: border-box;
+    font-size: 12px;
+    position: relative;
+}
+
+.authenticated .list .right .recomend {
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    background-color: #bbb;
+    color: #fff;
+    padding: 0 8px;
+}
+
+.authenticated .wrapper .list .right {
+    float: right;
+    width: 78%;
+    color: #666666;
+    padding-left: 4px;
+    box-sizing: border-box;
+    font-size: 12px;
+    position: relative;
+}
+
+.authenticated .list .right .copy {
+    width: 40px;
+    background-color: #ffaa00;
+    color: #fff;
+    border: 1px solid #ffaa00;
+    text-align: center;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    font-size: 14px;
+    border-radius: 6px;
+    transform: translateY(-50%);
+    line-height: 24px;
+}
+
+.authenticated .content .top p.selected i {
+    transform: rotate(180deg);
+}

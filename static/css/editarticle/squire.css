@@ -1,0 +1,48 @@
+
+.usimgs img{
+  width: 100%;
+}
+span{
+  display: inline-block;
+}
+.spanimg{
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-top: 12px;
+}
+.spanimg img{
+  width: 100%;
+}
+.uslist{
+  border-bottom: 1px solid #eeeeee;
+}
+.usimgs span{
+  padding: 6px 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+.user{
+  position: relative;
+}
+.useright{
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.useright .icon{
+  color: #cdcdcd;
+  margin-left: 6px;
+}
+.useright i{
+  margin-left: 2px;
+}
+.names{
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  padding-left: 10px;
+  font-size: 14px;
+}

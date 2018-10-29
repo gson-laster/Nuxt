@@ -1,0 +1,243 @@
+.box{
+  background: #f8f8f8;
+}
+.userCenter .user_top{
+  position: relative;
+ overflow: hidden;
+ min-height: 136px;
+}
+.userCenter .bgImg{
+  max-height: 180px;
+  overflow: hidden;
+}
+.userCenter .bgImg img{
+  width: 100%;
+}
+.userCenter .user_img_box{
+  position: absolute;
+  left: 20px;
+  top: 16px;
+  width: 70px;
+  height: 70px;
+  background: #696470;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.userCenter .user_img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.userCenter .user_img img{
+  width: 100%;
+}
+.userCenter .user_edit{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.userCenter .user_edit img{
+  width: 24px;
+}
+.userCenter .user_name{
+  margin-left: 114px;
+  padding-top: 6px;
+}
+.userCenter .user_name img{
+  height: 16px;
+  margin-left: 4px;
+}
+.userCenter .user_name p:first-child{
+  color: white;
+  font-size: 16px;
+}
+.userCenter .user_name p:last-child{
+  color: #D7D7D7;
+  padding-top: 12px;
+}
+.userCenter .user_list{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background: rgba(35, 77, 106, 0.5);
+}
+.userCenter .user_list li{
+  float: left;
+  width: 33.3333%;
+  box-sizing: border-box;
+  margin: 14px 0;
+  border-left: 1px solid #888888;
+}
+.userCenter .user_list li p{
+  padding-top: 4px;
+}
+.userCenter .user_list li:first-child{
+  border: none;
+}
+.userCenter .list_content{
+  position: relative;
+  color: #474747;
+}
+.userCenter .list_img{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/*.userCenter .list_img img{
+  width: 26px;
+}*/
+.userCenter .itemlist{
+  margin-top: 12px;
+  margin-bottom: 40px;
+  font-size: 15px;
+}
+.userCenter .itemlist span{
+  float: right;
+  color: #898989;
+  font-size: 14px;
+  padding-right: 28px;
+}
+.userCenter .list_content_box{
+  background: white;
+  padding-left: 12px;
+}
+.userCenter .list_content_box{
+  line-height: 40px;
+  background-repeat: no-repeat;
+  background-position: left 20px center;
+  background-size:20px auto;
+  color: #333333;
+  /*font-size: 16px;*/
+  /*font-weight: 600;*/
+}
+.userCenter .list_content{
+  /*margin-left: 8px;*/
+ position: relative;
+  /*padding-left: 32px;*/
+  /*background-repeat: no-repeat;
+  background-size:6px auto;
+  font-size: 16px;
+  background-position: right 12px center;*/
+}
+.userCenter .list_content:after{
+  content: '';
+  position: absolute;
+  right: 15px;
+  width: 8px;
+  height: 8px;
+  border-top: 1px solid #E1E1E1;
+  border-right: 1px solid #E1E1E1;
+  top: 50%;
+  transform: rotate(45deg) translateY(-50%);
+}
+.userCenter .border_list{
+  margin-top: 12px;
+}
+.userCenter .border_list .list_content_box:not(:last-child) .list_content{
+  border-bottom: 1px solid #EEEEEE;
+}
+/*.list_one{
+  background-image: url(../img/userOne.png);
+}
+.list_two{
+  background-image: url(../img/userTwo.png);
+}
+.list_three{
+  background-image: url(../img/userThree.png);
+}
+.list_four{
+  background-image: url(../img/userFour.png);
+}
+.list_five{
+  background-image: url(../img/userFive.png);
+}
+.list_six{
+  background-image: url(../img/userSix.png);
+}
+.list_seven{
+  background-image: url(../img/userSeven.png);
+}
+.list_eight{
+  background-image: url(../img/userEight.png);
+}*/
+.userCenter .selfuserInfo{
+  /*padding-top: 58px;
+  padding-left: 115px;*/
+  position: absolute;
+  top: 30px;
+  left: 116px;
+  color: #FFFFFF;
+}
+.userCenter .selfuserInfo p{
+  line-height: 26px;
+  font-size: 16px;
+}
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+  .userCenter .user_img {
+    width: 66px;
+    height: 66px;
+  }
+  .userCenter .user_img_box {
+    width: 66px;
+    height: 66px;
+  }
+  .userCenter .selfuserInfo{
+    left: 102px;
+    top: 22px;
+  }
+}
+.userCenter .opusList {
+  background-color: #FFAA00;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  line-height: 32px;
+  font-size: 16px;
+  color: #FFFFFF;
+  width: 88px;
+  box-sizing: border-box;
+  padding-left: 12px;
+  border-radius: 32px 0 0 32px;
+  background-repeat: no-repeat;
+  background-position: center right 12px;
+  background-size: auto 16px;
+}
+.userCenter .maps{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.userCenter .maps:after{
+  content: '';
+  position: absolute;
+  right: 15px;
+  width: 8px;
+  height: 8px;
+  border-top: 1px solid #D8C59E;
+  border-right: 1px solid #D8C59E;
+  top: 50%;
+  transform: rotate(45deg) translateY(-50%);
+}
+.userCenter .overflow{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.userCenter .itemlist .icon{
+  color: #FFAB02;
+  /*display: inline-block;*/
+ margin-right: 4px;
+ font-size: 20px !important;
+ vertical-align: middle;
+}
+/*.footer{
+  display: none;
+}*/
+
+/*.userCenter .footer{
+  display: none;
+}*/

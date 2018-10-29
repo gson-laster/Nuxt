@@ -1,0 +1,115 @@
+#article-bottom {
+  background-color: #fff;
+  margin-bottom: 60px;
+}
+#article-bottom .fgx {
+  width: 100%;
+  margin: 10px auto;
+  overflow: hidden;
+  height: 1px;
+  border-top: 1px #ccc solid;
+}
+#article-bottom .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 1px #e8e8e8 solid;
+  width: 94%;
+  flex-wrap: wrap;
+  margin: auto;
+}
+#article-bottom .container .item {
+  width: 50%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 6px;
+  font-size: 14px;
+  border-bottom: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+}
+#article-bottom .container .item .article-bottom-text {
+  flex: 1;
+}
+#article-bottom .container .item .title {
+  font-size: 16px;
+}
+#article-bottom .container .item .circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+#article-bottom .bottom-hint {
+  width: 80%;
+  height: 30px;
+  margin: 30px auto 0 auto;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  background-color: #ee8300;
+}
+#article-bottom .realative-articleList {
+  width: 94%;
+  margin: auto;
+  clear: both;
+  line-height: 23px;
+  font-size: 14px;
+}
+#article-bottom .realative-articleList .article {
+  border-bottom: 1px dashed #ccc;
+  line-height: 30px;
+  font-size: 14px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+#article-bottom .relative {
+  width: 100%;
+  height: 30px;
+  background: #333;
+  color: #fff;
+  clear: both;
+  margin: 0 auto;
+  line-height: 30px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.color0 {
+  color: #333 !important;
+}
+.color1 {
+  color: #edba4d !important;
+}
+.color2 {
+  color: #e85565 !important;
+}
+.color3 {
+  color: #46dac2 !important;
+}
+.bottom-img {
+  background: url(~static/img/article/img.png) no-repeat;
+  background-size: 248px 60px;
+}
+.img2-bgcolor {
+  height: 90px;
+  width: 90px;
+  background-position: 0 0;
+}
+.img3-bgcolor {
+  height: 90px;
+  width: 90px;
+  background-position: -62px 0;
+}
+.img0-bgcolor {
+  height: 90px;
+  width: 90px;
+  background-position: -122px 0;
+}
+.img1-bgcolor {
+  height: 90px;
+  width: 90px;
+  background-position: -188px 0;
+}

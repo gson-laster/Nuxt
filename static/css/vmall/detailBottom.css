@@ -1,0 +1,50 @@
+
+.view_buy input, .view_buy span{
+  padding: 0;
+  color: #FFF;
+  width: 32%;
+  height: 60px;
+  line-height: 60px;
+  font-size: 16px;
+}
+
+.view_buy{
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  z-index: 19999;
+  max-width: 640px;
+  border-top: 1px #CACACA solid;
+  background-color: #F7F7F7;
+}
+.view_buy a{
+  float: left;
+  width: 18%;
+  border-right: 1px #CACACA solid;
+  background: #F7F7F7;
+  font-size: 16px;
+  height: 25px;
+}
+.view_buy a.view_buy_ico1{
+  background: url('~static/img/vmall/shop_icon.png') center 5px no-repeat #F7F7F7;
+  text-align: center;
+  padding-top: 35px;
+}
+.view_buy a.view_buy_ico2{
+  background: url('~static/img/vmall/shop_contact.png') center 5px no-repeat #F7F7F7;
+  text-align: center;
+  padding-top: 35px;
+}
+
+.view_buy span{
+  float: left;
+  top: 10px;
+  background: #FFAA01;
+}
+.view_buy input{
+  position: absolute;
+  right: 0;
+  background: #E70012;
+  border: 0;
+  border-left: 1px #FFF solid;
+}

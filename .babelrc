@@ -1,0 +1,4 @@
+{
+  "presets": ["stage-3", "latest-node"],
+  "plugins": [ "transform-async-to-generator", "transform-runtime" ],
+}

@@ -1,0 +1,191 @@
+.createcode .layer-shadow {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  z-index: 300;
+}
+
+.createcode .layer-content {
+  background-color: #fff;
+  width: 330px;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate3d(-50%, -50%, 0);
+}
+.createcode .layer-header .number {
+  color: #ffaa00;
+}
+.createcode .layer-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  color: #ffaa00;
+}
+
+.createcode .layer-shadow .confirm-btn {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: #ff0000;
+  box-sizing: border-box;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.createcode .header .title-bottom {
+  margin-top: 24px;
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .createcode .title-container p {
+  font-size: 30px;
+  margin-top: 8px;
+}
+
+.createcode .title-container {
+  margin: 20px auto 0 auto;
+  width: 80%;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+
+.createcode .header {
+  height: 195px;
+  width: 100%;
+  background: url(../../img/wusercenter/createCode_bg.png) no-repeat;
+  position: relative;
+  background-size: 100% auto;
+  overflow: hidden;
+}
+
+.createcode .title-bottom .create-code-btn {
+  width: 100px;
+  text-align: center;
+  background-color: #fa9000;
+  border: 1px solid #fff;
+  outline: none;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 6px;
+  display: block;
+  padding: 8px 4px;
+  margin-left: 10px;
+}
+
+.createcode .header .title-bottom input {
+  width: 54px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #fff;
+  outline: none;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 14px;
+  color: #cccccc;
+  margin-left: 10px;
+}
+
+.createcode .navaga {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.createcode .navaga li.active {
+  border-bottom: 2px solid #ffaa00;
+  color: #ffaa00;
+}
+
+.createcode .navaga li {
+  width: 50%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #888888;
+  float: left;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.createcode .list-header .left {
+  text-align: center;
+}
+
+.createcode .list-header div {
+  width: 50%;
+  float: left;
+  color: #afafaf;
+  font-size: 12px;
+  padding: 4px 0;
+}
+
+.createcode .list-header .right span:LAST-OF-TYPE {
+  /*float: right;*/
+  margin-right: 10px;
+}
+.createcode .list-content .codeNoUsed{
+  /* margin-bottom:40px; */
+}
+.createcode .list-content .codeUsed{
+  /* margin-bottom: 40px; */
+}
+.createcode .list-content .left,
+.createcode .list-content .right {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+.createcode .list-content .left {
+  padding-left: 10px;
+  /*display: inline;*/
+}
+
+.createcode .list-content .right {
+  position: relative;
+  /*display: inline;*/
+}
+
+.createcode .list-content .codeUsed .time {
+  text-align: center;
+  height: auto;
+  width: auto;
+  background-position: auto;
+}
+
+.createcode .list-content .item {
+  height: 50px;
+  line-height: 46px;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+}
+
+.createcode .list-content {
+  font-size: 14px;
+  background-color: #fff;
+  clear: both;
+  float: none;
+}
+
+.createcode .list-content .right button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translate3d(0, -50%, 0);
+  background-color: #ffaa00;
+  border-radius: 6px;
+  color: #fff;
+  height: 30px;
+  width: 50px;
+  line-height: 22px;
+  border: 1px solid transparent;
+  font-size: 14px;
+}

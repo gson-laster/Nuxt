@@ -1,0 +1,37 @@
+.n_vmallsearch, .new_vbshop2{
+  background: #FFF;
+  overflow: hidden;
+}
+.n_vmallsearch{
+  margin: 10px 10px 0;
+  border-bottom: 3px #FFAA01 solid;
+}
+.n_vmallsearch .s-btn{
+  float: right;
+}
+.n_vmallsearch .s-btn img, .n_vmallsearch .s-val{
+  float: left;
+}
+.n_vmallsearch .s-btn button{
+  border: none;
+  background: 0 0;
+  float: left;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.n_vmallsearch .s-btn img, .n_vmallsearch .s-val{
+  float: left;
+}
+.n_vmallsearch .s-val input{
+  float: left;
+  width: 200px;
+  line-height: 40px;
+  height: 40px;
+  padding: 0 10px;
+  border: none;
+  font-size: 14px;
+}
+
+
+

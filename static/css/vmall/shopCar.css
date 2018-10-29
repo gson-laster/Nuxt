@@ -1,0 +1,288 @@
+.goods_view .goods_view_num h3,
+.goods_view .goods_view_spec h3,
+.newedit_title h3,
+.ordertotal span b,
+.shopcar_sm h2,
+.shopcarlist .goods_nr .goods_price b,
+.shopcarnull h3,
+.total span b {
+  font-weight: 400;
+}
+
+.n_vmallsearch,
+.new_vbshop2 {
+  background: #FFF;
+  overflow: hidden;
+}
+
+.vMall .shopcar_sm {
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 10px;
+  line-height: 30px;
+  border-top: 1px #CCC solid;
+  border-bottom: 1px #CCC solid;
+  font-size: 16px;
+}
+
+.vMall .shopcar_sm h2 {
+  float: left;
+  font-size: 16px;
+  color: #999
+}
+
+.vMall .shopcar_sm a {
+  float: right;
+  width: 100px;
+  text-align: center;
+  background: #FFA901;
+  color: #FFF
+}
+
+.vMall .shopcar {
+  cursor: pointer
+}
+
+.vMall .shopcarlist {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 1px #E3E3E3 solid;
+  position: relative
+}
+
+.vMall .shopcarlist .goodsid {
+  float: left;
+  display: none
+}
+
+.vMall .shopcarlist .goods_pic {
+  float: left;
+  width: 100px;
+  margin: 0 10px
+}
+
+.vMall .shopcarlist .goods_pic img {
+  float: left;
+  width: 100px;
+  height: 100px
+}
+
+.vMall .shopcarlist .goods_nr {
+  margin-left: 160px;
+  font-size: 14px;
+  margin-right: 10px
+}
+
+.vMall .shopcarlist .goods_nr .goods_title {
+  float: left;
+  width: 90%;
+  font-size: 18px;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  padding-bottom: 5px
+}
+
+.vMall .shopcarlist .goods_nr .goods_title i {
+  color: #FE611C
+}
+
+.vMall .shopcarlist .goods_nr .goods_price {
+  float: right;
+  font-size: 14px;
+  color: #999;
+  text-align: right;
+  margin-top: 10px
+}
+.vMall .shopcarlist .goods_nr .goods_price i {
+  font-style: normal
+}
+.vMall .shopcarlist .goods_nr .goods_price span {
+  float: right
+}
+.shopcarlist .goods_nr .goods_spec {
+  float: left;
+  font-size: 14px;
+  margin-top: 10px
+}
+
+.vMall .shopcarlist .goods_nr .goods_num {
+  float: left;
+  width: 100%;
+  margin-top: 5px
+}
+
+.vMall .shopcarlist .goods_nr .goods_num cite {
+  float: left
+}
+
+.vMall .shopcarlist .goods_nr .goods_num input.add,.shopcarlist .goods_nr .goods_num input.jian {
+  float: left;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+  background: #F6F6F6;
+  border: 1px solid #E3E3E3;
+  padding: 0;
+  cursor: pointer
+}
+
+.vMall .shopcarlist .goods_nr .goods_num input.num {
+  float: left;
+  width: 30px;
+  height: 23px;
+  text-align: center;
+  line-height: 20px;
+  background: #FFF;
+  border: none;
+  border-top: 1px #E3E3E3 solid;
+  border-bottom: 1px #E3E3E3 solid;
+  padding: 0;
+  font-size: 12px
+}
+
+.vMall .shopcarlist .cardate,.yfsm {
+  text-align: right;
+  color: #999
+}
+
+.vMall .shopcarlist .cardate {
+  float: right;
+  padding-right: 10px;
+  line-height: 20px;
+  margin-top: 5px
+}
+
+.vMall .shopcarlist .goods_del {
+  position: absolute;
+  right: 5px;
+  height: 40px;
+  width: 40px;
+  top: 15px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAB90RVh0U29mdHdhcmUATWFjcm9tZWRpYSBGaXJld29ya3MgOLVo0ngAAAHMSURBVFiFzZfNbcJAEEafrRTgEigBpLkDHZAO7AqoISVQAXQQOsDcR4pLSAnuIDl4jPy7uxhbyXezWPt7u7MzzEQESlXXwAHYAruRZTlwB64iUoR8NwowToEjsA75YEMFcBKRyyQAVV0BZ8Z3G6ocyETkOxhAVQ9mnrxoXqs0iKsXwI78PJNxV1k3JC0A2/nnQua13psn8QCwmH8x37GPqQQ29Z2IGz/MGXOXEhohjuER953nxQtVavlU2FqXdub5OIGjz1xEMmDvgSiAva31QRwBIqtwXwHmAKhqAtzoF6bavGysPQOp49ubmKq8urQ2UwDMoHsSQ+bJAGRXh5iqtjsBgJsDYsx86JS62kaq+uNZVGvMiInmQHUHQgEGIZp61hzadSBEvXC8Yj4FYHY9CzAagpHsmBVg8BIGpKgXIJ9qThVzV4r6lMdUPdxU8zX+OuHSPQZ6XUoXICDPxyB8ANfYulfXwtRqui/VWhAB/wOFiBRv9nDC3YalqlqbuPK8hig85rVnqyO68XoHHKpcRPbQTsOMql1aWqV50QKwHi0beGFutWaEViGybnVJiN5s8P8GkwbEir8azTogKdOH04+hXT8F0ABZZDz/BSLz93IlBx/5AAAAAElFTkSuQmCC) center center no-repeat;
+  background-size: 25px
+}
+
+.vMall #goodsalls,.totalbar {
+  float: left;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.vMall #goodsalls label.on i,.shopcarlist label.on i {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAANCAYAAABPeYUaAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAwOS8yMi8xNTL9/JYAAAAfdEVYdFNvZnR3YXJlAE1hY3JvbWVkaWEgRmlyZXdvcmtzIDi1aNJ4AAAAWUlEQVQokaXPUQoAIQgE0Cm6/5WnnxbExnJTEKL0MTWSqFYvCwWEq5+R7f9/EQu0F0QCFiFEzAygkijoCFjEPjI4S8An8VAK8Eg0fAQU4peuAACM4D61/NUEszcRGKRpRb0AAAAASUVORK5CYII=) center 50% no-repeat #ADD597
+}
+.vMall #goodsalls input, .goods_view .goods_view_spec input, .shopcarlist .goods_del i{
+  display: none;
+}
+
+
+.vMall .shopcarlist label {
+  float: left;
+  padding-top: 40px;
+  margin-left: 10px;
+  cursor: pointer
+}
+
+.vMall .shopcarlist label i {
+  float: left;
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  border: 1px solid #CCC
+}
+
+.vMall .shopcarlist label.on i {
+  border: 1px solid #ADD597
+}
+
+.vMall .totalbar {
+  width: 100%
+}
+
+.vMall #goodsalls {
+  width: 70px;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 20px;
+  z-index: 10;
+  margin-left: 10px
+}
+
+.vMall #goodsalls label i,#goodsalls label.on i {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  float: left
+}
+
+.vMall #goodsalls label {
+  cursor: pointer
+}
+
+.vMall #goodsalls label i {
+  border-radius: 15px;
+  border: 1px solid #CCC
+}
+
+#goodsalls label.on i {
+  border-radius: 15px;
+  border: 1px solid #ADD597
+}
+
+.total,.total span {
+  width: 100%;
+  overflow: hidden
+}
+
+.vMall .yfsm {
+  margin: 0 auto;
+  padding: 5px 10px;
+  font-size: 14px;
+  background: #F3F3F3;
+  overflow: hidden
+}
+
+.vMall .total {
+  position: absolute;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+  color: #FEA900
+}
+
+.vMall .total span {
+  float: left
+}
+
+.vMall .total #totalmoney {
+  padding-top: 10px
+}
+.vMall .orderan {
+  float: right;
+  width: 100px;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+  margin-right: 10px
+}
+.vMall .orderan a,.orderan input {
+  margin-top: 10px;
+  color: #FFF;
+  text-align: center;
+  float: right;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  background: #FEA900;
+  border-radius: 5px;
+  font-size: 20px
+}
+.vMall .orderan input {
+  border: none;
+  cursor: pointer
+}

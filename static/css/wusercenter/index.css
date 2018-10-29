@@ -1,0 +1,175 @@
+@import '~static/css/wusercenter/img.css';
+.userTop {
+  position: relative;
+  height: 120px;
+  background-image: url('~static/img/wusercenter/topBgimg.jpg');
+  background-size: 100% 100%;
+}
+.topImg {
+  position: absolute;
+  top: 22px;
+  left: 20px;
+  /* overflow: hidden;  */
+  width: 80px;
+  height: 80px;
+  border: 2px solid #fff;
+  border-radius: 80px;
+}
+.topImg img {
+  width: 100%;
+  border-radius: 50%;
+}
+.userInfo {
+  margin-left: 121px;
+  padding-top: 27px;
+}
+.userInfo p {
+  font-size: 15px;
+  line-height: 26px;
+  min-height: 26px;
+  color: #fff;
+}
+.userInfo p:last-child span {
+  padding-left: 1em;
+}
+.userInfo p:nth-child(2) {
+  font-size: 18px;
+}
+.identfication {
+  position: absolute;
+  top: 88px;
+  left: 79px;
+}
+.identfication img {
+  width: 26px;
+}
+.outLoginBox {
+  line-height: 24px;
+  position: absolute;
+  top: 26px;
+  right: 20px;
+  padding-right: 3px;
+  padding-left: 6px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background-color: #fa7801;
+  background-repeat: no-repeat;
+  background-size: 17px auto;
+}
+.userList {
+  background-color: #fff;
+}
+.userList li {
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  width: 50%;
+  min-height: 54px;
+  padding: 15px 15px 15px 0;
+  text-align: right;
+}
+.userList li:first-child {
+  border-right: 1px solid #eee;
+}
+.userList p:last-child {
+  line-height: 24px;
+}
+.black {
+  color: #999;
+}
+.userList li .img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 12px;
+}
+.ListFirstP {
+  font-size: 14px;
+  color: #fa0;
+}
+.titles {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 6px;
+  color: #333;
+  background-color: #eee;
+}
+.ListItem ul {
+  background: #fff;
+}
+.ListItem li {
+  float: left;
+  box-sizing: border-box;
+  width: 25%;
+  height: 93px;
+  border-bottom: 1px solid #eee;
+  background-repeat: no-repeat;
+  background-position: center top 20px;
+  background-size: auto 28px;
+  border-right: 1px solid #eee;
+}
+/*.ListItem li:not(nth-child(4n)) {}*/
+.ListItem li p {
+  padding-top: 8px;
+  text-align: center;
+  color: #333;
+}
+.ListItem .img {
+  display: block;
+  margin: 18px auto 0;
+  transform: scale(.9);
+}
+#wusecenter .userTop  .img-vip{
+  background:url('~static/img/wusercenter/VIP.png') no-repeat ;
+  background-size: 100%;
+  background-position: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  bottom:-2px;
+  right: -8px;
+}
+
+
+
+.zhuanzai {
+  background: url(~static/img/wusercenter/zuanzai.png) no-repeat center center;
+  height: 32px;
+  width: 32px;
+  margin: 18px auto 0;
+  transform: scale(.9);
+}
+
+.clocklogo{
+  height: 32px;
+  background: url(~static/img/clock/clocklogo.png) no-repeat center center;
+  background-size:auto 32px;
+   margin: 18px auto 0;
+}
+
+.weixincodealerts{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(75, 75, 75, 0.6);
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-flex;
+}
+.weixincodeimgs{
+  margin: 0 auto;
+  align-self: center;
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.weixincodeimgs p{
+  padding-top: 4px;
+  font-size: 16px;
+}
+.weixincodeimgs img{
+  width: 200px;
+}
